@@ -1,0 +1,42 @@
+{
+    "name": "zara-pullandbear-scraper",
+    "version": "1.0.0",
+    "description": "Zara ve Pull&Bear e-ticaret sitelerinden ürün bilgilerini toplayan web scraping sistemi",
+    "main": "dist/main.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "dev": "tsx src/main.ts",
+        "build": "tsc",
+        "start": "node dist/main.js",
+        "db:generate": "npx prisma generate",
+        "db:migrate": "npx prisma migrate dev",
+        "db:studio": "npx prisma studio",
+        "db:seed": "tsx prisma/seed.ts",
+        "db:setup": "npx prisma generate && npx prisma migrate dev && npm run db:seed",
+        "export:categories": "tsx src/hierarchical-exporter.ts",
+        "export:simple": "tsx src/main.ts",
+        "export:auto": "npm run export:simple"
+    },
+    "keywords": [
+        "scraper",
+        "ecommerce",
+        "zara",
+        "pullandbear",
+        "typescript"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.x",
+        "@types/node-fetch": "^2.x",
+        "prisma": "^5.x",
+        "tsx": "^4.x",
+        "typescript": "^5.x"
+    },
+    "dependencies": {
+        "@prisma/client": "^5.x",
+        "node-fetch": "^3.x"
+    }
+}

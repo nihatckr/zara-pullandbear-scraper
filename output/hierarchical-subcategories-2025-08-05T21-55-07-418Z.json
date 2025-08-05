@@ -1,0 +1,1737 @@
+[
+  {
+    "brand": "Zara",
+    "gender": "women",
+    "mainCategoryId": 1881757,
+    "mainCategoryName": "KADIN",
+    "subcategories": [
+      {
+        "categoryId": 2583113,
+        "categoryName": "CEKET | KABAN",
+        "subcategories": [],
+        "isLeaf": true,
+        "matchingId": 1030204607,
+        "matchingCategoryName": "CEKET"
+      },
+      {
+        "categoryId": 2420944,
+        "categoryName": "BLAZER",
+        "subcategories": [
+          {
+            "id": 2420942,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030441307,
+        "matchingCategoryName": "BLAZER VE TAKIM"
+      },
+      {
+        "categoryId": 2420895,
+        "categoryName": "ELBİSE",
+        "subcategories": [
+          {
+            "id": 2420896,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420900,
+            "name": "MIDI | MAKSI",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420826,
+            "name": "MINI",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420907,
+            "name": "TULUM",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204616,
+        "matchingCategoryName": "ELBISE"
+      },
+      {
+        "categoryId": 2420368,
+        "categoryName": "GÖMLEK",
+        "subcategories": [
+          {
+            "id": 2420369,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420336,
+            "name": "BLUZ",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420347,
+            "name": "KISA KOLLU",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420331,
+            "name": "BEYAZ",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204645,
+        "matchingCategoryName": "GÖMLEK VE BLUZ"
+      },
+      {
+        "categoryId": 2419939,
+        "categoryName": "TOP | BODY",
+        "subcategories": [
+          {
+            "id": 2419940,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2419927,
+            "name": "BODY",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2419920,
+            "name": "KOLSUZ",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2577504,
+            "name": "KıSA KOLLU",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030207187,
+        "matchingCategoryName": "TOP VE BODY"
+      },
+      {
+        "categoryId": 2420416,
+        "categoryName": "T-SHIRT",
+        "subcategories": [
+          {
+            "id": 2420417,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420405,
+            "name": "BASIC",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420397,
+            "name": "BEYAZ",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420409,
+            "name": "KıSA KOLLU",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420395,
+            "name": "ASKILI",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420387,
+            "name": "BASKILI",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204631,
+        "matchingCategoryName": "TIŞÖRT"
+      },
+      {
+        "categoryId": 2419242,
+        "categoryName": "JEAN",
+        "subcategories": [
+          {
+            "id": 2419185,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2419235,
+            "name": "YÜKSEK BEL",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2419238,
+            "name": "ORTA BEL",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2419239,
+            "name": "WıDE LEG",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204692,
+        "matchingCategoryName": "JEAN"
+      },
+      {
+        "categoryId": 2420794,
+        "categoryName": "PANTOLON",
+        "subcategories": [
+          {
+            "id": 2420795,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420777,
+            "name": "WIDE LEG",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420787,
+            "name": "YÜKSEK BEL",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420781,
+            "name": "BEYAZ",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2419259,
+            "name": "SIYAH PANTOLON",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030207189,
+        "matchingCategoryName": "PANTOLONLAR"
+      },
+      {
+        "categoryId": 2420453,
+        "categoryName": "ETEK",
+        "subcategories": [
+          {
+            "id": 2420454,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420430,
+            "name": "MIDI",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420447,
+            "name": "MINI",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204678,
+        "matchingCategoryName": "ETEK"
+      },
+      {
+        "categoryId": 2420482,
+        "categoryName": "ŞORT | BERMUDA",
+        "subcategories": [
+          {
+            "id": 2420480,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420465,
+            "name": "DENIM",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420479,
+            "name": "ŞORT ETEK",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204685,
+        "matchingCategoryName": "ŞORT VE BERMUDA ŞORT"
+      },
+      {
+        "categoryId": 2420505,
+        "categoryName": "YELEK",
+        "subcategories": [
+          {
+            "id": 2420506,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030441307,
+        "matchingCategoryName": "BLAZER VE TAKIM"
+      },
+      {
+        "categoryId": 2420284,
+        "categoryName": "TAKIM",
+        "subcategories": [
+          {
+            "id": 2420285,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030441307,
+        "matchingCategoryName": "BLAZER VE TAKIM"
+      },
+      {
+        "categoryId": 2419181,
+        "categoryName": "SWEATSHIRT | EŞOFMAN",
+        "subcategories": [
+          {
+            "id": 2467841,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2467842,
+            "name": "SWEATSHIRT",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2467843,
+            "name": "EŞOFMAN",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204660,
+        "matchingCategoryName": "SWEATSHIRTLER"
+      },
+      {
+        "categoryId": 2420293,
+        "categoryName": "TRİKO",
+        "subcategories": [
+          {
+            "id": 2420306,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420320,
+            "name": "TOP",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420325,
+            "name": "HıRKA",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2420326,
+            "name": "BASIC",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204669,
+        "matchingCategoryName": "ÖRGÜ VE KROŞE"
+      },
+      {
+        "categoryId": 2418953,
+        "categoryName": "PLAJ GİYİM",
+        "subcategories": [
+          {
+            "id": 2418954,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2583092,
+            "name": "KOLEKSIYON",
+            "sectionName": "WOMAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204707,
+        "matchingCategoryName": "BIKINI VE MAYO"
+      }
+    ],
+    "timestamp": "2025-08-05T21:55:07.417Z"
+  },
+  {
+    "brand": "Zara",
+    "gender": "men",
+    "mainCategoryId": 1885841,
+    "mainCategoryName": "ERKEK",
+    "subcategories": [
+      {
+        "categoryId": 2432163,
+        "categoryName": "ŞORT | BERMUDA",
+        "subcategories": [
+          {
+            "id": 2432164,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432145,
+            "name": "DENIM ŞORT",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432162,
+            "name": "KETEN",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432147,
+            "name": "JOGGER",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2459335,
+            "name": "JORTS",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432153,
+            "name": "SPOR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204712,
+        "matchingCategoryName": "ŞORT"
+      },
+      {
+        "categoryId": 2432095,
+        "categoryName": "PANTOLON",
+        "subcategories": [
+          {
+            "id": 2432096,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432072,
+            "name": "KETEN PANTOLON",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432064,
+            "name": "CHINO",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432075,
+            "name": "KUMAŞ PANTOLON",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432098,
+            "name": "JOGGER",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204719,
+        "matchingCategoryName": "PANTOLONLAR"
+      },
+      {
+        "categoryId": 2431993,
+        "categoryName": "GÖMLEK | KETEN GÖMLEK",
+        "subcategories": [
+          {
+            "id": 2431994,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2431973,
+            "name": "KETEN",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2431987,
+            "name": "DÜZ RENK",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2431977,
+            "name": "KıSA KOLLU",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2431997,
+            "name": "KLASIK",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2431971,
+            "name": "DESENLI",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2431970,
+            "name": "DENIM",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204766,
+        "matchingCategoryName": "GÖMLEKLER"
+      },
+      {
+        "categoryId": 2432040,
+        "categoryName": "T-SHIRT",
+        "subcategories": [
+          {
+            "id": 2432042,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432030,
+            "name": "BASKıLı",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432004,
+            "name": "BASıC",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432014,
+            "name": "DÜZ RENK",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432034,
+            "name": "KOLSUZ",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432015,
+            "name": "UZUN KOLLU",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432003,
+            "name": "SPORTSWEAR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432033,
+            "name": "POLO T-SHIRT",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432012,
+            "name": "LISANSLı®",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204791,
+        "matchingCategoryName": "TIŞÖRT"
+      },
+      {
+        "categoryId": 2432056,
+        "categoryName": "POLO T-SHIRT",
+        "subcategories": [
+          {
+            "id": 2432049,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432053,
+            "name": "BASIC",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432054,
+            "name": "KıSA KOLLU",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432048,
+            "name": "UZUN KOLLU",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432061,
+            "name": "BASKıLı",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204788,
+        "matchingCategoryName": "POLOLAR"
+      },
+      {
+        "categoryId": 2432130,
+        "categoryName": "JEAN",
+        "subcategories": [
+          {
+            "id": 2432131,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432133,
+            "name": "SLIM",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432125,
+            "name": "STRAIGHT",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432129,
+            "name": "BAGGY",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432132,
+            "name": "SKINNY",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432121,
+            "name": "İSPANYOL PAÇA",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432104,
+            "name": "ŞORT",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204730,
+        "matchingCategoryName": "JEAN"
+      },
+      {
+        "categoryId": 2432264,
+        "categoryName": "KAZAK | HIRKA",
+        "subcategories": [
+          {
+            "id": 2432265,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432252,
+            "name": "BASIC",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432258,
+            "name": "KISA KOLLU",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432237,
+            "name": "UZUN KOLLU",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2558949,
+            "name": "DÜZ RENK",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432249,
+            "name": "BASKıLı",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432242,
+            "name": "SÜVETER",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204756,
+        "matchingCategoryName": "TRIKO"
+      },
+      {
+        "categoryId": 2432193,
+        "categoryName": "PLAJ GİYİM",
+        "subcategories": [
+          {
+            "id": 2576034,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2576508,
+            "name": "REGULAR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2576507,
+            "name": "UZUN",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2577008,
+            "name": "KISA",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204710,
+        "matchingCategoryName": "MAYO"
+      },
+      {
+        "categoryId": 2432231,
+        "categoryName": "SWEATSHIRT",
+        "subcategories": [
+          {
+            "id": 2432232,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432219,
+            "name": "BASIC",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432214,
+            "name": "KıSA KOLLU",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2583645,
+            "name": "UZUN KOLLU",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 2432235,
+            "name": "BASKıLı",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204822,
+        "matchingCategoryName": "SWEATSHIRTLER"
+      },
+      {
+        "categoryId": 2432279,
+        "categoryName": "İNCE CEKET",
+        "subcategories": [
+          {
+            "id": 2432280,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204837,
+        "matchingCategoryName": "CEKET"
+      },
+      {
+        "categoryId": 2537410,
+        "categoryName": "MONT | YELEK",
+        "subcategories": [
+          {
+            "id": 2536906,
+            "name": "TÜMÜNÜ GÖR",
+            "sectionName": "MAN",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 1030204837,
+        "matchingCategoryName": "CEKET"
+      }
+    ],
+    "timestamp": "2025-08-05T21:55:07.417Z"
+  },
+  {
+    "brand": "Pull&Bear",
+    "gender": "women",
+    "mainCategoryId": 1030616387,
+    "mainCategoryName": "Kadın",
+    "subcategories": [
+      {
+        "categoryId": 1030204692,
+        "categoryName": "JEAN",
+        "subcategories": [
+          {
+            "id": 1030204693,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030312502,
+            "name": "STRAIGHT",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030526548,
+            "name": "BAGGY",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030287011,
+            "name": "GENIŞ PAÇA",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204696,
+            "name": "MOM",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204694,
+            "name": "SKINNY",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030397187,
+            "name": "PETITE & TALL",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2419242,
+        "matchingCategoryName": "JEAN"
+      },
+      {
+        "categoryId": 1030207189,
+        "categoryName": "PANTOLONLAR",
+        "subcategories": [
+          {
+            "id": 1030207192,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030309531,
+            "name": "YÜKSEK BEL",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030318057,
+            "name": "KUMAŞ",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030642978,
+            "name": "KETEN KARıŞıMLı",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030396207,
+            "name": "STRAIGHT",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030409821,
+            "name": "PETITE & TALL",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030413807,
+            "name": "ŞORT",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2420794,
+        "matchingCategoryName": "PANTOLON"
+      },
+      {
+        "categoryId": 1030204631,
+        "categoryName": "TIŞÖRT",
+        "subcategories": [
+          {
+            "id": 1030204632,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204636,
+            "name": "BASIC",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204633,
+            "name": "KıSA KOLLU",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204637,
+            "name": "GRAFIK BASKıLı",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204634,
+            "name": "UZUN KOLLU",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030569700,
+            "name": "SETİNİ OLUŞTUR",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2420416,
+        "matchingCategoryName": "T-SHIRT"
+      },
+      {
+        "categoryId": 1030207187,
+        "categoryName": "TOP VE BODY",
+        "subcategories": [
+          {
+            "id": 1030422324,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030436306,
+            "name": "KOLSUZ ATLET",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030421818,
+            "name": "BODYLER",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030446433,
+            "name": "UZUN KOLLU",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030424340,
+            "name": "TAKıMLAR",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2419939,
+        "matchingCategoryName": "TOP | BODY"
+      },
+      {
+        "categoryId": 1030204616,
+        "categoryName": "ELBISE",
+        "subcategories": [
+          {
+            "id": 1030204617,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204619,
+            "name": "UZUN",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204618,
+            "name": "KıSA",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030225510,
+            "name": "PARTI",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2420895,
+        "matchingCategoryName": "ELBİSE"
+      },
+      {
+        "categoryId": 1030204607,
+        "categoryName": "CEKET",
+        "subcategories": [],
+        "isLeaf": true,
+        "matchingId": 2583113,
+        "matchingCategoryName": "CEKET | KABAN"
+      },
+      {
+        "categoryId": 1030204645,
+        "categoryName": "GÖMLEK VE BLUZ",
+        "subcategories": [],
+        "isLeaf": true,
+        "matchingId": 2420368,
+        "matchingCategoryName": "GÖMLEK"
+      },
+      {
+        "categoryId": 1030204678,
+        "categoryName": "ETEK",
+        "subcategories": [
+          {
+            "id": 1030204679,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204681,
+            "name": "MIDI",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204680,
+            "name": "MINI",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204682,
+            "name": "DENIM",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030285024,
+            "name": "ŞORT ETEK",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2420453,
+        "matchingCategoryName": "ETEK"
+      },
+      {
+        "categoryId": 1030204685,
+        "categoryName": "ŞORT VE BERMUDA ŞORT",
+        "subcategories": [
+          {
+            "id": 1030204686,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204690,
+            "name": "DENIM",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030588832,
+            "name": "JORT",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030423824,
+            "name": "ŞORT ETEK",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2420482,
+        "matchingCategoryName": "ŞORT | BERMUDA"
+      },
+      {
+        "categoryId": 1030204707,
+        "categoryName": "BIKINI VE MAYO",
+        "subcategories": [],
+        "isLeaf": true,
+        "matchingId": 2418953,
+        "matchingCategoryName": "PLAJ GİYİM"
+      },
+      {
+        "categoryId": 1030204660,
+        "categoryName": "SWEATSHIRTLER",
+        "subcategories": [
+          {
+            "id": 1030204661,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204664,
+            "name": "KAPÜŞONLU SWEATSHIRT",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204662,
+            "name": "BASIC",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030293001,
+            "name": "OVERSIZE",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030569702,
+            "name": "SETİNİ OLUŞTUR",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2419181,
+        "matchingCategoryName": "SWEATSHIRT | EŞOFMAN"
+      },
+      {
+        "categoryId": 1030204669,
+        "categoryName": "ÖRGÜ VE KROŞE",
+        "subcategories": [
+          {
+            "id": 1030204670,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030293502,
+            "name": "ELBISELER",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204673,
+            "name": "TOP",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030669099,
+            "name": "ETEK VE ŞORT",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204671,
+            "name": "KAZAK",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204672,
+            "name": "HıRKA",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2420293,
+        "matchingCategoryName": "TRİKO"
+      },
+      {
+        "categoryId": 1030441307,
+        "categoryName": "BLAZER VE TAKıM",
+        "subcategories": [
+          {
+            "id": 1030543597,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030543096,
+            "name": "BLAZER",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030543598,
+            "name": "TAKıM",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030615333,
+            "name": "YELEKLER",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2420284,
+        "matchingCategoryName": "BLAZER"
+      }
+    ],
+    "timestamp": "2025-08-05T21:55:07.418Z"
+  },
+  {
+    "brand": "Pull&Bear",
+    "gender": "men",
+    "mainCategoryId": 1030616396,
+    "mainCategoryName": "Erkek",
+    "subcategories": [
+      {
+        "categoryId": 1030204791,
+        "categoryName": "TIŞÖRT",
+        "subcategories": [
+          {
+            "id": 1030204792,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204796,
+            "name": "GRAFIK BASKıLı",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204797,
+            "name": "BASIC",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030575236,
+            "name": "STWD",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204802,
+            "name": "LISANSLı",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204795,
+            "name": "ASKıLı",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030569701,
+            "name": "SETİNİ OLUŞTUR",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2432040,
+        "matchingCategoryName": "T-SHIRT"
+      },
+      {
+        "categoryId": 1030204788,
+        "categoryName": "POLOLAR",
+        "subcategories": [],
+        "isLeaf": true,
+        "matchingId": 2432056,
+        "matchingCategoryName": "POLO T-SHIRT"
+      },
+      {
+        "categoryId": 1030204730,
+        "categoryName": "JEAN",
+        "subcategories": [
+          {
+            "id": 1030204731,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030466394,
+            "name": "BAGGY",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030352071,
+            "name": "STANDARD",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204734,
+            "name": "SKINNY",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204733,
+            "name": "SLIM",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030409818,
+            "name": "ŞORTLAR",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2432130,
+        "matchingCategoryName": "JEAN"
+      },
+      {
+        "categoryId": 1030204719,
+        "categoryName": "PANTOLONLAR",
+        "subcategories": [
+          {
+            "id": 1030204721,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204728,
+            "name": "ŞORTLAR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204720,
+            "name": "JOGGERS",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030478923,
+            "name": "KETEN KARıŞıMLı",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030567708,
+            "name": "BAGGY",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204726,
+            "name": "TAILORING",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030569194,
+            "name": "SETİNİ OLUŞTUR",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2432095,
+        "matchingCategoryName": "PANTOLON"
+      },
+      {
+        "categoryId": 1030204712,
+        "categoryName": "ŞORT",
+        "subcategories": [
+          {
+            "id": 1030204713,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204714,
+            "name": "DENIM",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030589332,
+            "name": "JORT",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030570731,
+            "name": "BAGGY",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204715,
+            "name": "JOGGERS",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030256503,
+            "name": "KARGO",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030476896,
+            "name": "KETEN KARıŞıMLı",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030637965,
+            "name": "SETİNİ OLUŞTUR",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2432163,
+        "matchingCategoryName": "ŞORT | BERMUDA"
+      },
+      {
+        "categoryId": 1030204822,
+        "categoryName": "SWEATSHIRTLER",
+        "subcategories": [
+          {
+            "id": 1030204823,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204826,
+            "name": "KAPÜŞONLU SWEATSHIRT",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204824,
+            "name": "BASIC",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030232513,
+            "name": "LISANSLı",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030571188,
+            "name": "KıSA KOLLU",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030569703,
+            "name": "SETİNİ OLUŞTUR",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2432231,
+        "matchingCategoryName": "SWEATSHIRT"
+      },
+      {
+        "categoryId": 1030204766,
+        "categoryName": "GÖMLEKLER",
+        "subcategories": [
+          {
+            "id": 1030204767,
+            "name": "TÜMÜNÜ GÖR",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204774,
+            "name": "KıSA KOLLU",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030332001,
+            "name": "KETEN KARıŞıMLı",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204768,
+            "name": "DÜZ RENKLI",
+            "isLeaf": true,
+            "subcategories": []
+          },
+          {
+            "id": 1030204771,
+            "name": "BASKıLı",
+            "isLeaf": true,
+            "subcategories": []
+          }
+        ],
+        "isLeaf": false,
+        "matchingId": 2431993,
+        "matchingCategoryName": "GÖMLEK | KETEN GÖMLEK"
+      },
+      {
+        "categoryId": 1030204837,
+        "categoryName": "CEKET",
+        "subcategories": [],
+        "isLeaf": true,
+        "matchingId": 2432279,
+        "matchingCategoryName": "İNCE CEKET"
+      },
+      {
+        "categoryId": 1030204756,
+        "categoryName": "TRIKO",
+        "subcategories": [],
+        "isLeaf": true,
+        "matchingId": 2432264,
+        "matchingCategoryName": "KAZAK | HIRKA"
+      },
+      {
+        "categoryId": 1030204710,
+        "categoryName": "MAYO",
+        "subcategories": [],
+        "isLeaf": true,
+        "matchingId": 2432193,
+        "matchingCategoryName": "PLAJ GİYİM"
+      }
+    ],
+    "timestamp": "2025-08-05T21:55:07.418Z"
+  }
+]
