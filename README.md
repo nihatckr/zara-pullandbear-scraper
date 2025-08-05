@@ -57,6 +57,53 @@ v1.0'da **49 kategori çifti** başarıyla eşleştirildi:
 - **Temizlenen Gereksiz Alanlar**: 20+ alan filtrelendi
 - **API Endpoint'leri**: 2 adet (Zara + Pull&Bear)
 
+## 🚀 v2.0 Roadmap: Product ID Discovery
+
+### 🎯 v2.0 Hedefleri
+- ✨ **Leaf Kategorilerden Ürün ID'leri**: Her leaf kategoriye ait product ID'lerini çekme
+- ✨ **Product Count**: Her kategorideki toplam ürün sayısı
+- ✨ **JSON Export Enhancement**: Product ID'leri ile zenginleştirilmiş export
+
+### 📊 v2.0 Beklenen Çıktı Yapısı
+```json
+{
+  "categoryId": 2583113,
+  "categoryName": "CEKET | KABAN",
+  "subcategories": [],
+  "isLeaf": true,
+  "productIds": [12345, 12346, 12347],
+  "productCount": 3,
+  "matchingId": 1030204607,
+  "matchingCategoryName": "CEKET"
+}
+```
+
+### 🛠 v2.0 Teknik Gereksinimler
+- Product list API endpoint'lerinin keşfi
+- Leaf kategoriler için product ID çekme
+- Product count hesaplama
+
+### 🔗 v2.0 API Endpoint'leri
+
+#### Zara Product IDs API
+```
+https://www.zara.com/tr/tr/category/{categoryId}/products?ajax=true
+```
+**Veri Yolu**: `productGroups[0].elements[0].commercialComponents[].id`
+
+#### Pull&Bear Product IDs API  
+```
+https://www.pullandbear.com/itxrest/3/catalog/store/25009521/20309457/category/{categoryId}/product?languageId=-43&showProducts=false&priceFilter=true&appId=1
+```
+**Veri Yolu**: `productIds[]`
+
+### 🔧 v2.0 Implementation Stratejisi
+1. **Leaf Kategorileri Tespit Et**: `isLeaf: true` olan kategorileri filtrele
+2. **Zara Product API**: Her leaf kategori ID'si ile istek at
+3. **Pull&Bear Product API**: Her leaf kategori ID'si ile istek at
+4. **Product ID Extraction**: Response'lardan product ID'lerini çıkar
+5. **JSON Enhancement**: Mevcut yapıya `productIds` ve `productCount` ekle
+
 ## 📚 **ÖNEMLİ: Proje Dokümantasyon Kuralları**
 
 ### 🔴 **ANA KURAL**
