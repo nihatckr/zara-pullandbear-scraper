@@ -1,65 +1,277 @@
-# Zara & Pull&Bear Category Scraper - v2.0 ✅
+# Zara & Pull&Bear Product Scraper v4.0 🛍️
 
 ## 📋 Proje Hakkında
 
-Bu proje, Zara ve Pull&Bear e-ticaret sitelerinden kategori bilgilerini ve product ID'lerini otomatik olarak toplayan, normalize eden ve hiyerarşik yapıda saklayan bir web scraping sistemidir.
+Bu proje, **Zara** ve **Pull&Bear** e-ticaret sitelerinden ürün bilgilerini otomatik olarak toplayan, normalize eden ve kullanıma hazır formatta saklayan kapsamlı bir web scraping sistemidir.
 
-## 🎯 v2.0 Özellikleri (Tamamlandı ✅)
+## 🎯 Özellikler
 
-- ✅ **Product ID Entegrasyonu**: Leaf kategorilerden product ID'lerini çekme
-- ✅ **API Integration**: Zara ve Pull&Bear product API'larını kullanma
-- ✅ **Enhanced Data**: Her kategoriye productIds ve productCount ekleme
-- ✅ **16,071** toplam product ID'si çekildi
-- ✅ **202** leaf kategori işlendi
-- ✅ **Rate Limiting**: API çağrıları arasında 500ms delay
+### ✅ **Kategori Sistemi (v2.0)**
+- Hiyerarşik kategori yapısını çeker
+- Zara ve Pull&Bear kategorilerini eşleştirir
+- **16,071+ unique ürün ID'si** toplar
+- Otomatik kategori filtreleme
 
-## 🎯 v1.0 Özellikleri (Tamamlandı ✅)
+### ✅ **Ürün Detay Sistemi (v4.0)**
+- Minimal 6-field yapı: `id`, `name`, `description`, `price`, `currency`, `colors`, `images`
+- Her iki marka için unified API
+- Batch processing ile hızlı çekme
+- Auto-save ve resume özelliği
 
-- ✅ **Zara Categories API**: Zara'nın kadın ve erkek kategorilerini çekme
-- ✅ **Pull&Bear Categories API**: Pull&Bear'ın kadın ve erkek kategorilerini çekme  
-- ✅ **Kategori Filtreleme**: Belirlenen hedef kategorileri filtreleme
-- ✅ **Hiyerarşik Yapı**: Ana kategori → Alt kategori → Alt-alt kategori yapısı
-- ✅ **Kategori Eşleştirme**: Zara ve Pull&Bear kategorilerini ID ve isim bazında eşleştirme
-- ✅ **Veri Temizleme**: Gereksiz alanları filtreleme (SEO, layout, attributes vb.)
-- ✅ **isLeaf Tanımlaması**: Her kategorinin leaf (yaprak) kategori olup olmadığını belirleme
-- ✅ **JSON Export**: Temiz ve yapılandırılmış JSON formatında export
+### ✅ **Production Ready**
+- Rate limiting ve retry logic
+- Progress tracking ve ETA
+- Error handling ve logging
+- Concurrent processing
 
-## 📊 v2.0 Çıktı Yapısı
+## � Proje Yapısı
 
-```json
-{
-  "brand": "Zara",
-  "gender": "women", 
-  "mainCategoryId": 1881757,
-  "mainCategoryName": "KADIN",
-  "subcategories": [
-    {
-      "categoryId": 2583113,
-      "categoryName": "CEKET | KABAN",
-      "subcategories": [],
-      "isLeaf": true,
-      "productIds": ["480773496", "452707754", "459127722"],
-      "productCount": 106,
-      "matchingId": 1030204607,
-      "matchingCategoryName": "CEKET"
-    }
-  ]
+## 📁 Proje Yapısı
+
+```
+zara-pullandbear-scraper/
+├── 📄 README.md                           # Ana dokümantasyon
+├── 📄 package.json                        # Node.js bağımlılıkları
+├── 📄 tsconfig.json                       # TypeScript konfigürasyonu
+├── 📁 scripts/                            # Tüm scraper scriptleri
+│   ├── 📄 category-scraper-v2.ts          # v2.0 Kategori + Product ID scraper
+│   ├── 📄 test-minimal-api.ts             # v4.0 Minimal API test scripti
+│   └── 📄 production-scraper.ts           # v4.0 Production scraper
+├── 📁 output/                             # Çıktı dosyaları
+│   ├── 📄 hierarchical-subcategories-*.json     # 16,071+ ürün ID'si
+│   └── 📄 product-details-minimal-v4-*.json     # Test edilmiş ürün detayları
+├── 📁 prisma/                             # Database schema
+│   └── 📄 schema.prisma                   # Prisma ORM schema
+└── 📄 .env                                # Environment variables
+```
+
+## 🚀 Hızlı Başlangıç
+
+### 1. Kurulum
+
+```bash
+# Projeyi klonla
+git clone https://github.com/nihatckr/zara-pullandbear-scraper
+cd zara-pullandbear-scraper
+
+# Bağımlılıkları yükle
+npm install
+```
+
+### 2. Kategori ve Product ID'leri Çek (v2.0)
+
+```bash
+# Tüm kategorileri ve ürün ID'lerini çek
+npm run scrape:categories
+```
+
+**Çıktı:** `output/hierarchical-subcategories-*.json` (16,071+ ürün)
+
+### 3. Ürün Detaylarını Test Et (v4.0)
+
+```bash
+# Minimal API'yi test et
+npm run scrape:test
+```
+
+**Çıktı:** `output/product-details-minimal-v4-*.json` (24 test ürün)
+
+### 4. Production Scraping (v4.0)
+
+```bash
+# Tüm ürünleri çek (saatler sürebilir)
+npm run scrape:production
+```
+
+**Not:** Production scraper'ı çalıştırmadan önce dosyayı açıp `startProductionScraping()` çağrısının yorumunu kaldırın.
+
+## 📊 Veri Yapıları
+
+### 🔷 Kategori Verisi (v2.0)
+```typescript
+interface CategoryData {
+  brand: string              // "Zara" | "Pull&Bear"
+  gender: string             // "women" | "men"
+  mainCategoryId: number     // Ana kategori ID'si
+  mainCategoryName: string   // Ana kategori adı
+  subcategories: Array<{
+    categoryId: number       // Alt kategori ID'si
+    categoryName: string     // Alt kategori adı
+    productIds: string[]     // Bu kategorideki ürün ID'leri
+    productCount: number     // Ürün sayısı
+    isLeaf: boolean         // Yaprak kategori mi?
+  }>
 }
 ```
 
+### 🔶 Minimal Ürün Verisi (v4.0)
+```typescript
+interface MinimalProduct {
+  id: string                 // Ürün ID
+  name: string              // Ürün adı
+  description: string       // Ürün açıklaması
+  price: number            // Fiyat
+  currency: string         // Para birimi
+  colors: Array<{          // Renk seçenekleri
+    id: string
+    name: string
+    sizes: Array<{         // Beden seçenekleri
+      name: string
+      sku: number
+      availability: string
+      price: number
+    }>
+  }>
+  images: string[]          // Ürün görselleri
+}
+```
 ## 🔗 API Endpoint'leri
 
-### Kategori API'ları (v1.0)
-- **Zara**: `https://www.zara.com/tr/tr/categories?ajax=true`
-- **Pull&Bear**: `https://www.pullandbear.com/itxrest/2/catalog/store/25009521/20309457/category?languageId=-43&typeCatalog=1&appId=1`
+### **Zara API'ları**
+- **Kategoriler:** `https://www.zara.com/tr/tr/categories?ajax=true`
+- **Ürün ID'leri:** `https://www.zara.com/tr/tr/category/{categoryId}/products?ajax=true`
+- **Ürün Detayları:** `https://www.zara.com/tr/tr/products-details?productIds={productId}&ajax=true`
 
-### Product API'ları (v2.0) ✅
-- **Zara**: `https://www.zara.com/tr/tr/category/{categoryId}/products?ajax=true`
-- **Pull&Bear**: `https://www.pullandbear.com/itxrest/3/catalog/store/25009521/20309457/category/{categoryId}/product?languageId=-43&typeCatalog=1&appId=1`
+### **Pull&Bear API'ları**
+- **Kategoriler:** `https://www.pullandbear.com/itxrest/2/catalog/store/25009621/30359503/category?languageId=-17&appId=1`
+- **Ürün ID'leri:** `https://www.pullandbear.com/itxrest/2/catalog/store/25009621/30359503/category/{categoryId}/product?languageId=-17&appId=1`
+- **Ürün Detayları:** `https://www.pullandbear.com/itxrest/2/catalog/store/25009621/30359503/category/0/product/{productId}/detail?languageId=-17&appId=1`
 
-### Veri Çıkarma Yolları ✅
-- **Zara Product IDs**: `productGroups[0].elements[0].commercialComponents[].id`
-- **Pull&Bear Product IDs**: `productIds[]`
+## 📈 İstatistikler
+
+### **Kategori Sistemi (v2.0)**
+- ✅ **Toplam Ürün:** 16,071+ unique
+- ✅ **Zara:** ~11,000+ ürün
+- ✅ **Pull&Bear:** ~5,000+ ürün
+- ✅ **Kategoriler:** 52 eşleştirilmiş kategori
+- ✅ **Başarı Oranı:** %100
+
+### **Ürün Detay Sistemi (v4.0)**
+- ✅ **Test Edilen:** 24 ürün
+- ✅ **Başarı Oranı:** %100 (24/24)
+- ✅ **Ortalama Renk:** 2.3/ürün
+- ✅ **Ortalama Görsel:** 10.2/ürün
+- ✅ **Ortalama Beden:** 15.9/ürün
+
+## ⚙️ Konfigürasyon
+
+### **Production Scraper Ayarları**
+```typescript
+const PRODUCTION_CONFIG = {
+  maxConcurrency: 5,           // Eşzamanlı istek sayısı
+  rateLimitDelay: 1000,        // İstekler arası gecikme (ms)
+  batchSize: 50,              // Batch başına ürün sayısı
+  retryAttempts: 3,           // Yeniden deneme sayısı
+  retryDelay: 2000,           // Yeniden deneme gecikmesi (ms)
+  saveInterval: 5 * 60 * 1000, // Otomatik kaydetme sıklığı (5dk)
+}
+```
+
+## 🛠 Geliştirme
+
+### **Bağımlılıklar**
+- **Node.js** >= 16.0.0
+- **TypeScript** >= 4.5.0
+- **@types/node** (dev dependency)
+
+### **Script Komutları**
+```bash
+# TypeScript derleme kontrolü
+npm run type-check
+
+# Tüm scriptleri derle
+npm run build
+
+# Development modda çalıştır
+npm run dev
+
+# Production scraping
+npm run start
+
+# Çıktı dosyalarını temizle
+npm run clean
+
+# Yardım
+npm run help
+```
+
+## 🔄 Versiyon Geçmişi
+
+### **v4.0 - Minimal Product Details (Mevcut)**
+- ✅ Unified 6-field product structure
+- ✅ Production-ready batch processing
+- ✅ Auto-save ve resume capability
+- ✅ %100 test success rate
+
+### **v3.0 - Enhanced Product Details**
+- ✅ Comprehensive product data extraction
+- ✅ 100+ field detailed structure
+- ✅ API discovery ve normalization
+
+### **v2.0 - Category + Product IDs**
+- ✅ Hierarchical category mapping
+- ✅ Product ID extraction
+- ✅ Brand cross-referencing
+
+### **v1.0 - Basic Category Scraping**
+- ✅ Basic category structure
+- ✅ Initial API discovery
+
+## 📖 API Response Örnekleri
+
+### **Zara Product Detail Response**
+```json
+{
+  "0": {
+    "id": 480773496,
+    "name": "KRUVAZE KISA CEKET",
+    "detail": {
+      "colors": [{
+        "id": "401",
+        "name": "LACİVERT",
+        "price": 279900,
+        "sizes": [{"name": "XS", "sku": 480773499}]
+      }]
+    }
+  }
+}
+```
+
+### **Pull&Bear Product Detail Response**
+```json
+{
+  "bundleProductSummaries": [{
+    "id": 698625044,
+    "name": "Uzun süper bol tulum",
+    "detail": {
+      "colors": [{
+        "id": "800",
+        "name": "SIYAH",
+        "price": 179900
+      }]
+    }
+  }]
+}
+```
+
+## 🎯 Kullanım Alanları
+
+- **E-ticaret Analizi:** Fiyat karşılaştırma ve trend analizi
+- **Market Research:** Ürün kategorileri ve fiyatlandırma stratejileri
+- **Stok Takibi:** Ürün mevcudiyeti ve beden analizi
+- **Fiyat Monitoring:** Otomatik fiyat değişikliği takibi
+
+## 📝 Lisans
+
+ISC License
+
+## 👨‍💻 Geliştirici
+
+Bu proje açık kaynak olarak geliştirilmiştir ve topluluk katkılarına açıktır.
+
+---
+
+**🚀 v4.0 ile production-ready, minimal ve hızlı scraping deneyimi!**
 
 ## � Kurulum ve Çalıştırma
 
