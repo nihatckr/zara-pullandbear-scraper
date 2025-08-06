@@ -1,6 +1,6 @@
 {
     "name": "zara-pullandbear-scraper",
-    "version": "4.1.0",
+    "version": "4.2.0",
     "description": "Production-ready Zara & Pull&Bear scraper with Prisma database integration - 29,755+ products support",
     "main": "src/main.ts",
     "directories": {
