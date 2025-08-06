@@ -10,6 +10,7 @@
         "scrape": "npx tsx src/main.ts",
         "scrape:modular": "npx tsx src/main-modular.ts",
         "scrape:production": "npx tsx src/main-production.ts",
+        "scrape:final": "npx tsx src/main-final.ts",
         "db:push": "npx prisma db push",
         "db:generate": "npx prisma generate",
         "db:studio": "npx prisma studio",
@@ -19,9 +20,13 @@
         "dev": "npx tsx src/main.ts",
         "dev:modular": "npx tsx src/main-modular.ts",
         "dev:production": "npx tsx src/main-production.ts",
+        "dev:final": "npx tsx src/main-final.ts",
         "type-check": "tsc --noEmit",
         "clean": "rm -rf output/* dist/*",
-        "help": "echo 'Available scripts: scrape, scrape:modular, scrape:production, build, start, dev, dev:modular, dev:production, type-check, clean, db:push, db:generate, db:studio, db:reset'"
+        "test:system": "npx tsx tests/system-test.ts",
+        "logs:view": "tail -f logs/combined.log",
+        "logs:errors": "tail -f logs/error.log",
+        "help": "echo 'Available scripts: scrape, scrape:modular, scrape:production, build, start, dev, dev:modular, dev:production, type-check, clean, test:system, logs:view, logs:errors, db:push, db:generate, db:studio, db:reset'"
     },
     "keywords": [
         "scraper",
@@ -33,12 +38,15 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@types/node": "^20.x",
+        "@types/node": "^20.19.9",
         "typescript": "^5.x"
     },
     "dependencies": {
         "@prisma/client": "^6.13.0",
+        "dotenv": "^17.2.1",
         "mysql2": "^3.14.3",
-        "prisma": "^6.13.0"
+        "prisma": "^6.13.0",
+        "winston": "^3.17.0",
+        "zod": "^4.0.15"
     }
 }

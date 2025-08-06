@@ -1,5 +1,6 @@
 // Export performance configuration
 export * from './performance'
+export * from './environment'
 
 import { ScraperConfig } from '../types'
 
