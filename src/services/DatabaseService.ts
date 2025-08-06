@@ -1,10 +1,5 @@
-import prisma from './prisma'
-import {
-  TargetSubcategoryData,
-  MinimalProduct,
-  MinimalProductColor,
-  MinimalProductSize,
-} from './main'
+import prisma from '../prisma'
+import { TargetSubcategoryData, MinimalProduct, DatabaseStats } from '../types'
 
 export class DatabaseService {
   // Save category data to database
@@ -85,11 +80,11 @@ export class DatabaseService {
             currency: product.currency,
             brand: brand,
             colors: {
-              create: product.colors.map((color: MinimalProductColor) => ({
+              create: product.colors.map((color: any) => ({
                 colorId: color.id,
                 name: color.name,
                 sizes: {
-                  create: color.sizes.map((size: MinimalProductSize) => ({
+                  create: color.sizes.map((size: any) => ({
                     name: size.name,
                     sku: size.sku,
                     availability: size.availability,
@@ -150,11 +145,11 @@ export class DatabaseService {
         brand: brand,
         updatedAt: new Date(),
         colors: {
-          create: product.colors.map((color: MinimalProductColor) => ({
+          create: product.colors.map((color: any) => ({
             colorId: color.id,
             name: color.name,
             sizes: {
-              create: color.sizes.map((size: MinimalProductSize) => ({
+              create: color.sizes.map((size: any) => ({
                 name: size.name,
                 sku: size.sku,
                 availability: size.availability,
@@ -199,16 +194,7 @@ export class DatabaseService {
   }
 
   // Get database statistics
-  async getStats(): Promise<{
-    categories: number
-    subcategories: number
-    nestedSubcategories: number
-    products: number
-    productIds: number
-    productColors: number
-    productSizes: number
-    productImages: number
-  }> {
+  async getStats(): Promise<DatabaseStats> {
     const [
       categories,
       subcategories,

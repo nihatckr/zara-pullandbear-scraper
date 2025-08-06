@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { databaseService } from './database-service'
+import { databaseService } from './services'
 
 // Interfaces
 interface CategoryApiResponse {
@@ -902,6 +902,8 @@ async function testMinimalProductDetails(): Promise<MinimalProduct[]> {
 
       return testResults
     }
+
+    return []
   } catch (error) {
     console.error('❌ Test hatası:', error)
     return []

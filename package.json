@@ -8,6 +8,7 @@
     },
     "scripts": {
         "scrape": "npx tsx src/main.ts",
+        "scrape:modular": "npx tsx src/main-modular.ts",
         "db:push": "npx prisma db push",
         "db:generate": "npx prisma generate",
         "db:studio": "npx prisma studio",
@@ -15,9 +16,10 @@
         "build": "tsc",
         "start": "node dist/main.js",
         "dev": "npx tsx src/main.ts",
+        "dev:modular": "npx tsx src/main-modular.ts",
         "type-check": "tsc --noEmit",
         "clean": "rm -rf output/* dist/*",
-        "help": "echo 'Available scripts: scrape, build, start, dev, type-check, clean, db:push, db:generate, db:studio, db:reset'"
+        "help": "echo 'Available scripts: scrape, scrape:modular, build, start, dev, dev:modular, type-check, clean, db:push, db:generate, db:studio, db:reset'"
     },
     "keywords": [
         "scraper",

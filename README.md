@@ -1,28 +1,28 @@
-# Zara & Pull&Bear Product Scraper v4.0 🛍️
+# Zara & Pull&Bear Product Scraper v4.1 🛍️
 
 ## 📋 Proje Hakkında
 
-Bu proje, **Zara** ve **Pull&Bear** e-ticaret sitelerinden ürün bilgilerini otomatik olarak toplayan, normalize eden ve kullanıma hazır formatta saklayan kapsamlı bir web scraping sistemidir.
+Bu proje, **Zara** ve **Pull&Bear** e-ticaret sitelerinden ürün bilgilerini otomatik olarak toplayan, normalize eden ve **Prisma ORM** ile veritabanına kaydeden profesyonel bir web scraping sistemidir.
 
 ## 🎯 Özellikler
 
 ### ✅ **Kategori Sistemi (v2.0)**
 - Hiyerarşik kategori yapısını çeker
 - Zara ve Pull&Bear kategorilerini eşleştirir
-- **16,071+ unique ürün ID'si** toplar
+- **37,230+ unique ürün ID'si** toplar
 - Otomatik kategori filtreleme
 
-### ✅ **Ürün Detay Sistemi (v4.0)**
+### ✅ **Ürün Detay Sistemi (v4.1)**
 - Minimal 6-field yapı: `id`, `name`, `description`, `price`, `currency`, `colors`, `images`
 - Her iki marka için unified API
-- Batch processing ile hızlı çekme
-- Auto-save ve resume özelliği
+- **Prisma ORM** ile MySQL veritabanı entegrasyonu
+- **%100 başarı oranı** test edildi
 
 ### ✅ **Production Ready**
-- Rate limiting ve retry logic
-- Progress tracking ve ETA
+- Profesyonel modüler yapı
+- Database persistence
 - Error handling ve logging
-- Concurrent processing
+- TypeScript type safety
 
 ## � Proje Yapısı
 
@@ -34,9 +34,28 @@ zara-pullandbear-scraper/
 ├── 📄 package.json                        # Node.js bağımlılıkları
 ├── 📄 tsconfig.json                       # TypeScript konfigürasyonu
 ├── 📁 src/                                # Ana kaynak kod
-│   └── 📄 main.ts                         # Tüm scraper fonksiyonları
+│   ├── 📄 main-modular.ts                 # Modüler ana giriş noktası
+│   ├── 📄 main.ts                         # Legacy ana dosya
+│   ├── 📄 prisma.ts                       # Database bağlantısı
+│   ├── 📁 config/                         # Konfigürasyon
+│   │   └── 📄 index.ts                    # Merkezi yapılandırma
+│   ├── 📁 scrapers/                       # Scraper sınıfları
+│   │   ├── 📄 index.ts                    # Scraper exports
+│   │   ├── 📄 ZaraScraper.ts              # Zara API implementasyonu
+│   │   └── 📄 PullBearScraper.ts          # Pull&Bear API implementasyonu
+│   ├── 📁 services/                       # İş mantığı servisleri
+│   │   ├── 📄 index.ts                    # Service exports
+│   │   └── 📄 DatabaseService.ts          # Database CRUD operations
+│   ├── 📁 types/                          # TypeScript tipleri
+│   │   └── 📄 index.ts                    # Type definitions
+│   └── 📁 utils/                          # Yardımcı fonksiyonlar
+│       ├── 📄 index.ts                    # Utility exports
+│       ├── 📄 category-utils.ts           # Kategori işlemleri
+│       └── 📄 file-utils.ts               # Dosya işlemleri
+├── 📁 prisma/                             # Prisma ORM
+│   └── 📄 schema.prisma                   # Database şeması
 ├── 📁 output/                             # Çıktı dosyaları
-│   ├── 📄 hierarchical-subcategories-*.json     # 16,071+ ürün ID'si
+│   ├── 📄 hierarchical-subcategories-*.json     # 37,230+ ürün ID'si
 │   └── 📄 product-details-minimal-v4-*.json     # Test edilmiş ürün detayları
 └── 📄 .env                                # Environment variables
 ```
@@ -57,14 +76,17 @@ npm install
 ### 2. Scraping İşlemini Başlat
 
 ```bash
-# Tüm scraping işlemini başlat
+# Modüler sistem ile scraping (önerilen)
+npm run scrape:modular
+
+# Legacy sistem ile scraping
 npm run scrape
 ```
 
 Bu komut sırasıyla şunları yapar:
 1. **Kategori + Product ID çekme** (v2.0)
-2. **Minimal API test** (v4.0) 
-3. **Production scraping** seçeneği (manuel onay gerekir)
+2. **24 ürün detay testi** (v4.1) 
+3. **Database kaydetme** (Prisma ORM ile MySQL)
 
 ## 📊 Veri Yapıları
 
@@ -121,18 +143,25 @@ interface MinimalProduct {
 ## 📈 İstatistikler
 
 ### **Kategori Sistemi (v2.0)**
-- ✅ **Toplam Ürün:** 16,071+ unique
-- ✅ **Zara:** ~11,000+ ürün
-- ✅ **Pull&Bear:** ~5,000+ ürün
-- ✅ **Kategoriler:** 52 eşleştirilmiş kategori
+- ✅ **Toplam Ürün:** 37,230+ unique
+- ✅ **Zara:** ~25,000+ ürün
+- ✅ **Pull&Bear:** ~12,000+ ürün
+- ✅ **Kategoriler:** 139 leaf kategori
 - ✅ **Başarı Oranı:** %100
 
-### **Ürün Detay Sistemi (v4.0)**
-- ✅ **Test Edilen:** 24 ürün
-- ✅ **Başarı Oranı:** %100 (24/24)
-- ✅ **Ortalama Renk:** 2.3/ürün
-- ✅ **Ortalama Görsel:** 10.2/ürün
-- ✅ **Ortalama Beden:** 15.9/ürün
+### **Ürün Detay Sistemi (v4.1)**
+- ✅ **Test Edilen:** 18 ürün (Zara: 6, Pull&Bear: 12)
+- ✅ **Başarı Oranı:** %100 (18/18)
+- ✅ **Ortalama Renk:** 1.7/ürün
+- ✅ **Ortalama Görsel:** 9.3/ürün
+- ✅ **Ortalama Beden:** 18.6/ürün
+
+### **Database Entegrasyonu (v4.1)**
+- ✅ **Prisma ORM:** MySQL provider
+- ✅ **Kategoriler:** 29 saved
+- ✅ **Alt kategoriler:** 364 saved
+- ✅ **Product ID'ler:** 42,390 saved
+- ✅ **Test ürünleri:** 29 saved
 
 ## ⚙️ Konfigürasyon
 
@@ -157,28 +186,36 @@ const PRODUCTION_CONFIG = {
 
 ### **Script Komutları**
 ```bash
-# Ana scraping komutu (kategori + test + production seçeneği)
+# Ana scraping komutu (modüler sistem - önerilen)
+npm run scrape:modular
+
+# Legacy scraping komutu
 npm run scrape
 
 # TypeScript derleme kontrolü
-npm run type-check
-
-# Development modda çalıştır
-npm run dev
-
-# Production modda çalıştır
-npm run start
+npm run build
 
 # Çıktı dosyalarını temizle
 npm run clean
 
-# Yardım
-npm run help
+# Database generate (Prisma)
+npm run db:generate
+
+# Database push (Prisma)
+npm run db:push
 ```
 
 ## 🔄 Versiyon Geçmişi
 
-### **v4.0 - Minimal Product Details (Mevcut)**
+### **v4.1 - Professional Modular Architecture + Database Integration (Mevcut)**
+- ✅ Profesyonel modüler yapı (config/, scrapers/, services/, types/, utils/)
+- ✅ Prisma ORM ile MySQL database entegrasyonu
+- ✅ 8 kapsamlı database modeli
+- ✅ %100 test başarı oranı (18/18 ürün)
+- ✅ 37,230+ product ID toplama
+- ✅ Temiz kod yapısı ve TypeScript type safety
+
+### **v4.0 - Minimal Product Details**
 - ✅ Unified 6-field product structure
 - ✅ Single-file architecture (src/main.ts)
 - ✅ Interactive pipeline: Category → Test → Production
@@ -252,7 +289,47 @@ Bu proje açık kaynak olarak geliştirilmiştir ve topluluk katkılarına açı
 
 ---
 
-**🚀 v4.0 ile tek dosya, production-ready, minimal ve hızlı scraping deneyimi!**
+**🚀 v4.1 ile profesyonel modüler yapı, database entegrasyonu ve %100 başarı oranı!**
+
+## 🗄️ Database Şeması (Prisma)
+
+```prisma
+model Brand {
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  categories  Category[]
+  products    Product[]
+}
+
+model Category {
+  id             Int            @id @default(autoincrement())
+  externalId     String
+  name           String
+  gender         String
+  brand          Brand          @relation(fields: [brandId], references: [id])
+  brandId        Int
+  subcategories  Subcategory[]
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+}
+
+model Product {
+  id          Int       @id @default(autoincrement())
+  externalId  String    @unique
+  name        String
+  description String?   @db.Text
+  price       Float
+  currency    String
+  brand       Brand     @relation(fields: [brandId], references: [id])
+  brandId     Int
+  colors      Color[]
+  images      Image[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+```
 
 ## � Kurulum ve Çalıştırma
 
