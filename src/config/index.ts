@@ -1,3 +1,6 @@
+// Export performance configuration
+export * from './performance'
+
 import { ScraperConfig } from '../types'
 
 export const REQUEST_HEADERS = {
