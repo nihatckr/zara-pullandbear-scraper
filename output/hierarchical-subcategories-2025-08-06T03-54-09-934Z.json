@@ -11,7 +11,11 @@
         "subcategories": [],
         "isLeaf": true,
         "matchingId": 1030204607,
-        "matchingCategoryName": "CEKET"
+        "matchingCategoryName": "CEKET",
+        "productIds": [
+          "480773496"
+        ],
+        "productCount": 1
       },
       {
         "categoryId": 2420944,
@@ -22,7 +26,14 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "464302060",
+              "464302061",
+              "464302062",
+              "480773499"
+            ],
+            "productCount": 4
           }
         ],
         "isLeaf": false,
@@ -38,21 +49,35 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "462239664",
+              "463285484",
+              "480417453"
+            ],
+            "productCount": 3
           },
           {
             "id": 2420900,
             "name": "MIDI | MAKSI",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "468896637"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420826,
             "name": "MINI",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "480417453"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420907,
@@ -75,21 +100,33 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "471008354"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420336,
             "name": "BLUZ",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "461951201"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420347,
             "name": "KISA KOLLU",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "456207921"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420331,
@@ -112,21 +149,39 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "458091630",
+              "9539855535",
+              "459025485",
+              "459127724"
+            ],
+            "productCount": 4
           },
           {
             "id": 2419927,
             "name": "BODY",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "458120047",
+              "462615209",
+              "452735243",
+              "458120048"
+            ],
+            "productCount": 4
           },
           {
             "id": 2419920,
             "name": "KOLSUZ",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "459025485"
+            ],
+            "productCount": 1
           },
           {
             "id": 2577504,
@@ -149,21 +204,36 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "480773265",
+              "480773260",
+              "480773259",
+              "452739525"
+            ],
+            "productCount": 4
           },
           {
             "id": 2420405,
             "name": "BASIC",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "480773260"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420397,
             "name": "BEYAZ",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "480773260"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420409,
@@ -200,21 +270,36 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "459342433",
+              "480180453",
+              "9639242803",
+              "459015576"
+            ],
+            "productCount": 4
           },
           {
             "id": 2419235,
             "name": "YÜKSEK BEL",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "480810171"
+            ],
+            "productCount": 1
           },
           {
             "id": 2419238,
             "name": "ORTA BEL",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "454900533"
+            ],
+            "productCount": 1
           },
           {
             "id": 2419239,
@@ -237,21 +322,36 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "462337531",
+              "461387778",
+              "9137727131",
+              "457842333"
+            ],
+            "productCount": 4
           },
           {
             "id": 2420777,
             "name": "WIDE LEG",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "461387778"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420787,
             "name": "YÜKSEK BEL",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "461387778"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420781,
@@ -281,21 +381,35 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "468888628",
+              "480617397",
+              "480617399"
+            ],
+            "productCount": 3
           },
           {
             "id": 2420430,
             "name": "MIDI",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "480584490"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420447,
             "name": "MINI",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "457869729"
+            ],
+            "productCount": 1
           }
         ],
         "isLeaf": false,
@@ -311,21 +425,42 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "463026407",
+              "452708114",
+              "458120077",
+              "480773497"
+            ],
+            "productCount": 4
           },
           {
             "id": 2420465,
             "name": "DENIM",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "475282618",
+              "473662381",
+              "473662376",
+              "460351836"
+            ],
+            "productCount": 4
           },
           {
             "id": 2420479,
             "name": "ŞORT ETEK",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "468888628",
+              "480617399",
+              "480617397",
+              "458784155"
+            ],
+            "productCount": 4
           }
         ],
         "isLeaf": false,
@@ -341,7 +476,14 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "460455813",
+              "462199715",
+              "462199716",
+              "470193560"
+            ],
+            "productCount": 4
           }
         ],
         "isLeaf": false,
@@ -357,7 +499,13 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "480773648",
+              "458091630",
+              "457842333"
+            ],
+            "productCount": 3
           }
         ],
         "isLeaf": false,
@@ -373,21 +521,36 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "453492720",
+              "452729525",
+              "466098847",
+              "452729524"
+            ],
+            "productCount": 4
           },
           {
             "id": 2467842,
             "name": "SWEATSHIRT",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452729525"
+            ],
+            "productCount": 1
           },
           {
             "id": 2467843,
             "name": "EŞOFMAN",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452729531"
+            ],
+            "productCount": 1
           }
         ],
         "isLeaf": false,
@@ -403,21 +566,36 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "462443013",
+              "9744401338",
+              "462147803",
+              "462147802"
+            ],
+            "productCount": 4
           },
           {
             "id": 2420320,
             "name": "TOP",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "453765912"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420325,
             "name": "HıRKA",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "462147803"
+            ],
+            "productCount": 1
           },
           {
             "id": 2420326,
@@ -440,14 +618,24 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "9349193809"
+            ],
+            "productCount": 1
           },
           {
             "id": 2583092,
             "name": "KOLEKSIYON",
             "sectionName": "WOMAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452708000",
+              "452748450",
+              "452748452"
+            ],
+            "productCount": 3
           }
         ],
         "isLeaf": false,
@@ -455,7 +643,7 @@
         "matchingCategoryName": "BIKINI VE MAYO"
       }
     ],
-    "timestamp": "2025-08-06T03:40:08.891Z"
+    "timestamp": "2025-08-06T03:52:48.888Z"
   },
   {
     "brand": "Zara",
@@ -472,21 +660,80 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452708186",
+              "452708185",
+              "452708186",
+              "452708184",
+              "452708187"
+            ],
+            "productCount": 5
           },
           {
             "id": 2432145,
             "name": "DENIM ŞORT",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452708263",
+              "455895593",
+              "481216210",
+              "475043417",
+              "467037037",
+              "465573570",
+              "452708264",
+              "452708262",
+              "452702027",
+              "481175971",
+              "479183185",
+              "467069951",
+              "465573572",
+              "464674663",
+              "464674662",
+              "457776397",
+              "457154810",
+              "457054683",
+              "457054682",
+              "457037536",
+              "454791364",
+              "452739847",
+              "452708265",
+              "452702026"
+            ],
+            "productCount": 24
           },
           {
             "id": 2432162,
             "name": "KETEN",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452708294",
+              "452708295",
+              "452723641",
+              "467037041",
+              "459586090",
+              "467037038",
+              "467037036",
+              "463549318",
+              "457154859",
+              "467037042",
+              "463549426",
+              "452739636",
+              "455913893",
+              "481163318",
+              "463551318",
+              "463551751",
+              "463550664",
+              "463550419",
+              "460046205",
+              "454727105",
+              "452708399"
+            ],
+            "productCount": 21
           },
           {
             "id": 2432147,
@@ -523,21 +770,89 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "465261209",
+              "465261210",
+              "465261209",
+              "465261208",
+              "461890042"
+            ],
+            "productCount": 5
           },
           {
             "id": 2432072,
             "name": "KETEN PANTOLON",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "470151268",
+              "470151266",
+              "470151271",
+              "469450144",
+              "462199709",
+              "459030249",
+              "458784709",
+              "481226599",
+              "481226598",
+              "459537791",
+              "459124291",
+              "457261809",
+              "452728970",
+              "463550521",
+              "452717242",
+              "463551369",
+              "481226602",
+              "475043390",
+              "470151280",
+              "470151269",
+              "463769298",
+              "463027035",
+              "456207807",
+              "455913875",
+              "463550094",
+              "463549189",
+              "481226604",
+              "481226600",
+              "475043391",
+              "466452417",
+              "463551607",
+              "463549001",
+              "463548635",
+              "463521187",
+              "462199697",
+              "462188026",
+              "461890042",
+              "459960805",
+              "457437885",
+              "457154848",
+              "452729398",
+              "459980380",
+              "452707673"
+            ],
+            "productCount": 43
           },
           {
             "id": 2432064,
             "name": "CHINO",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "453978685",
+              "461149795",
+              "453978686",
+              "467607593",
+              "459806526",
+              "468086239",
+              "481226601",
+              "470172021",
+              "467607596",
+              "467607594",
+              "464931597"
+            ],
+            "productCount": 11
           },
           {
             "id": 2432075,
@@ -567,21 +882,187 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452723349",
+              "452723352",
+              "452723350",
+              "464990618",
+              "452723349"
+            ],
+            "productCount": 5
           },
           {
             "id": 2431973,
             "name": "KETEN",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "453979847",
+              "481157324",
+              "481157325",
+              "457432035",
+              "463521273",
+              "464380135",
+              "452708273",
+              "463363706",
+              "459131811",
+              "452713430",
+              "461905834",
+              "452708274",
+              "463769297",
+              "452713313",
+              "457432036",
+              "453492740",
+              "453492739",
+              "452717693",
+              "481157326",
+              "470151279",
+              "470151276",
+              "470151274",
+              "463253467",
+              "462389847",
+              "458795936",
+              "455079328",
+              "464427894",
+              "463521110",
+              "462337868",
+              "461074943",
+              "455438147",
+              "481157327",
+              "468855128",
+              "464418600",
+              "452735174",
+              "481157323",
+              "481157322",
+              "481157321",
+              "463516032",
+              "481157332",
+              "481157330",
+              "464418597",
+              "463550343",
+              "463550159",
+              "463550038",
+              "463549523",
+              "463521272",
+              "463521109",
+              "463285485",
+              "463054356",
+              "462544788",
+              "460460118",
+              "460044349",
+              "459568488",
+              "459158428",
+              "457145556",
+              "455913900",
+              "452969482"
+            ],
+            "productCount": 58
           },
           {
             "id": 2431987,
             "name": "DÜZ RENK",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "453979847",
+              "481157324",
+              "481157325",
+              "457432035",
+              "463521273",
+              "464380135",
+              "452708273",
+              "463363706",
+              "452713430",
+              "461905834",
+              "457829003",
+              "465261205",
+              "452708274",
+              "457869751",
+              "452697195",
+              "452697194",
+              "465261207",
+              "452713313",
+              "457432036",
+              "453492740",
+              "453492739",
+              "452708260",
+              "452717693",
+              "481157326",
+              "470151279",
+              "470151276",
+              "470151274",
+              "462389847",
+              "452739711",
+              "460447426",
+              "459988201",
+              "452969437",
+              "469535918",
+              "464427894",
+              "463521110",
+              "459988204",
+              "455438147",
+              "452744688",
+              "481157327",
+              "468855128",
+              "465261206",
+              "464418600",
+              "461840279",
+              "452735174",
+              "481157323",
+              "481157322",
+              "459389564",
+              "457129613",
+              "452744392",
+              "452708259",
+              "481157332",
+              "481157330",
+              "481157328",
+              "469535919",
+              "466295920",
+              "466295919",
+              "465297780",
+              "465227425",
+              "464990618",
+              "463550343",
+              "463550159",
+              "463550038",
+              "463549523",
+              "463549242",
+              "463549205",
+              "463521272",
+              "463521109",
+              "463515991",
+              "463285485",
+              "463054356",
+              "462544788",
+              "461686648",
+              "460020548",
+              "459988202",
+              "459960798",
+              "459568488",
+              "457145556",
+              "455950456",
+              "455913900",
+              "455222145",
+              "452969482",
+              "452739642",
+              "452739641",
+              "452739637",
+              "452739635",
+              "452739548",
+              "452735637",
+              "452723711",
+              "452723462",
+              "452702077",
+              "452707960",
+              "461966687",
+              "461966686",
+              "452717143"
+            ],
+            "productCount": 94
           },
           {
             "id": 2431977,
@@ -625,21 +1106,41 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "468912876",
+              "468055163",
+              "469536035"
+            ],
+            "productCount": 3
           },
           {
             "id": 2432030,
             "name": "BASKıLı",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "462224463",
+              "469536035",
+              "453996069",
+              "461157736"
+            ],
+            "productCount": 4
           },
           {
             "id": 2432004,
             "name": "BASıC",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452735652",
+              "452735652",
+              "452735651",
+              "479611196"
+            ],
+            "productCount": 4
           },
           {
             "id": 2432014,
@@ -697,21 +1198,138 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "457829003",
+              "458113463",
+              "452729114"
+            ],
+            "productCount": 3
           },
           {
             "id": 2432053,
             "name": "BASIC",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452708356",
+              "452708356",
+              "452708359",
+              "452708357",
+              "452708355",
+              "452708360"
+            ],
+            "productCount": 6
           },
           {
             "id": 2432054,
             "name": "KıSA KOLLU",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452739383",
+              "452739382",
+              "452744588",
+              "452744590",
+              "452739656",
+              "452739652",
+              "452744592",
+              "452739647",
+              "456160392",
+              "452708357",
+              "452708356",
+              "452739657",
+              "452717729",
+              "452717727",
+              "463521310",
+              "452739651",
+              "461434103",
+              "452717728",
+              "452723273",
+              "452708360",
+              "452739349",
+              "452735486",
+              "452708355",
+              "452744587",
+              "452744586",
+              "452729393",
+              "462260411",
+              "452739662",
+              "452717726",
+              "452708382",
+              "452708376",
+              "452739346",
+              "462185241",
+              "461434104",
+              "452739660",
+              "452729149",
+              "452707962",
+              "452729394",
+              "463491680",
+              "463491674",
+              "452735485",
+              "452735483",
+              "452708359",
+              "463149515",
+              "462185244",
+              "458113610",
+              "455438143",
+              "452744695",
+              "452744676",
+              "452708379",
+              "452708378",
+              "452697179",
+              "457162044",
+              "454899282",
+              "453523373",
+              "452744428",
+              "452729348",
+              "452696894",
+              "452729114",
+              "452697059",
+              "462185243",
+              "461434102",
+              "452739663",
+              "452723718",
+              "452723129",
+              "452708131",
+              "452702168",
+              "452701626",
+              "452697178",
+              "463491683",
+              "463491682",
+              "455975480",
+              "453523374",
+              "452729347",
+              "452729346",
+              "452723274",
+              "452723272",
+              "467996718",
+              "458113463",
+              "457355426",
+              "456207910",
+              "455438142",
+              "455438141",
+              "453765933",
+              "453523375",
+              "452744675",
+              "452744137",
+              "452739664",
+              "452739610",
+              "452739348",
+              "452729349",
+              "452728893",
+              "452713379",
+              "452712960",
+              "452702167",
+              "452697158",
+              "452696992",
+              "452717505",
+              "452717507"
+            ],
+            "productCount": 99
           },
           {
             "id": 2432048,
@@ -741,21 +1359,56 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "9088278684"
+            ],
+            "productCount": 1
           },
           {
             "id": 2432133,
             "name": "SLIM",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452708243",
+              "452708241",
+              "458120082",
+              "452713584",
+              "456831957",
+              "452708245",
+              "452729400",
+              "456831958",
+              "452713583",
+              "452708242",
+              "452713586",
+              "452708239",
+              "452713585",
+              "456831959",
+              "455150565",
+              "452708247"
+            ],
+            "productCount": 16
           },
           {
             "id": 2432125,
             "name": "STRAIGHT",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452701727",
+              "452701726",
+              "452701730",
+              "452729400",
+              "452701729",
+              "462298217",
+              "452701725",
+              "457096691",
+              "452744458"
+            ],
+            "productCount": 9
           },
           {
             "id": 2432129,
@@ -799,21 +1452,83 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "456213884",
+              "462608497",
+              "462608498"
+            ],
+            "productCount": 3
           },
           {
             "id": 2432252,
             "name": "BASIC",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452708368",
+              "452708366",
+              "452708368",
+              "452708363",
+              "452708367",
+              "452708364"
+            ],
+            "productCount": 6
           },
           {
             "id": 2432258,
             "name": "KISA KOLLU",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452708102",
+              "452713591",
+              "452713587",
+              "452708366",
+              "452708364",
+              "452708368",
+              "455438137",
+              "452713013",
+              "452708367",
+              "452708363",
+              "452696873",
+              "455438135",
+              "452739671",
+              "452739467",
+              "452723718",
+              "452713334",
+              "452707951",
+              "452697104",
+              "452696872",
+              "452696870",
+              "452708395",
+              "457451652",
+              "467996718",
+              "457451653",
+              "453749762",
+              "452744298",
+              "452739469",
+              "452739446",
+              "452735637",
+              "452735511",
+              "452728893",
+              "452723711",
+              "452723710",
+              "452723265",
+              "452713274",
+              "452713040",
+              "452701906",
+              "452701550",
+              "452696914",
+              "452696871",
+              "452696853",
+              "452717505",
+              "452707960",
+              "452717507"
+            ],
+            "productCount": 44
           },
           {
             "id": 2432237,
@@ -857,21 +1572,74 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "9497418329",
+              "9109566625",
+              "466254749",
+              "466254731"
+            ],
+            "productCount": 4
           },
           {
             "id": 2576508,
             "name": "REGULAR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452739533",
+              "452729207",
+              "452744349",
+              "452739709",
+              "452729202",
+              "452729199",
+              "454900501",
+              "452748285",
+              "452744361",
+              "452739715",
+              "452729208",
+              "452717742",
+              "452744679",
+              "452739717",
+              "452729204",
+              "452729203",
+              "452729200",
+              "452717752",
+              "452729272",
+              "452729271",
+              "452729269",
+              "471620291",
+              "452748283",
+              "452744355",
+              "452739639",
+              "452739434",
+              "452729273",
+              "452729270",
+              "452729201",
+              "452717686"
+            ],
+            "productCount": 30
           },
           {
             "id": 2576507,
             "name": "UZUN",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "452729209",
+              "452744361",
+              "452739538",
+              "452729210",
+              "452748569",
+              "452748514",
+              "452739705",
+              "452739484",
+              "452717164",
+              "452713152"
+            ],
+            "productCount": 10
           },
           {
             "id": 2577008,
@@ -894,21 +1662,56 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "469536035",
+              "469536035",
+              "469536035"
+            ],
+            "productCount": 3
           },
           {
             "id": 2432219,
             "name": "BASIC",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "453896948",
+              "453896948",
+              "453896949",
+              "453896947"
+            ],
+            "productCount": 4
           },
           {
             "id": 2432214,
             "name": "KıSA KOLLU",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "456110410",
+              "459972083",
+              "459972084",
+              "458120085",
+              "458115185",
+              "454899286",
+              "469536035",
+              "460341842",
+              "452969467",
+              "452723605",
+              "452723799",
+              "452969468",
+              "452744292",
+              "452729329",
+              "452723611",
+              "452723607",
+              "452713315",
+              "452708095",
+              "452701659"
+            ],
+            "productCount": 19
           },
           {
             "id": 2583645,
@@ -938,7 +1741,14 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "470077570",
+              "468381880",
+              "470077570",
+              "468381879"
+            ],
+            "productCount": 4
           }
         ],
         "isLeaf": false,
@@ -954,7 +1764,16 @@
             "name": "TÜMÜNÜ GÖR",
             "sectionName": "MAN",
             "isLeaf": true,
-            "subcategories": []
+            "subcategories": [],
+            "productIds": [
+              "455335104",
+              "462397322",
+              "469533939",
+              "463985693",
+              "455975597",
+              "455975597"
+            ],
+            "productCount": 6
           }
         ],
         "isLeaf": false,
@@ -962,7 +1781,7 @@
         "matchingCategoryName": "CEKET"
       }
     ],
-    "timestamp": "2025-08-06T03:40:08.891Z"
+    "timestamp": "2025-08-06T03:52:48.888Z"
   },
   {
     "brand": "Pull&Bear",
@@ -1403,7 +2222,7 @@
         "matchingCategoryName": "BLAZER"
       }
     ],
-    "timestamp": "2025-08-06T03:40:08.891Z"
+    "timestamp": "2025-08-06T03:52:48.889Z"
   },
   {
     "brand": "Pull&Bear",
@@ -1732,6 +2551,6 @@
         "matchingCategoryName": "PLAJ GİYİM"
       }
     ],
-    "timestamp": "2025-08-06T03:40:08.891Z"
+    "timestamp": "2025-08-06T03:52:48.889Z"
   }
 ]

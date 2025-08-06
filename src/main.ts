@@ -26,10 +26,37 @@ interface TargetSubcategoryData {
     categoryId: number
     categoryName: string
     subcategories: any[]
+    isLeaf?: boolean
     matchingId?: number
     matchingCategoryName?: string
+    productIds?: string[]
+    productCount?: number
   }[]
   timestamp: string
+}
+
+// Minimal Product Interfaces
+interface MinimalProductSize {
+  name: string
+  sku: number
+  availability: string
+  price: number
+}
+
+interface MinimalProductColor {
+  id: string
+  name: string
+  sizes: MinimalProductSize[]
+}
+
+interface MinimalProduct {
+  id: string
+  name: string
+  description: string
+  price: number
+  currency: string
+  colors: MinimalProductColor[]
+  images: string[]
 }
 
 // Kategori temizleme fonksiyonları
@@ -485,6 +512,145 @@ async function filterTargetCategories(
   return targetCategories
 }
 
+// Product ID'leri çekme fonksiyonu (hızlı test için sınırlı)
+async function collectProductIds(categories: TargetSubcategoryData[]) {
+  console.log('\n📦 Product ID Toplama İşlemi Başlatılıyor...')
+
+  let totalProductIds = 0
+  let processedCategories = 0
+
+  for (const category of categories) {
+    console.log(
+      `\n🏷️ ${category.brand} ${category.gender} kategorisi işleniyor...`,
+    )
+
+    let processedSubcats = 0
+    for (const subcat of category.subcategories) {
+      if (processedSubcats >= 2) break // Her ana kategoriden sadece 2 alt kategori
+
+      try {
+        // Leaf kategoriler için product ID'leri çek
+        if (subcat.isLeaf) {
+          const productIds = await fetchProductIds(
+            category.brand,
+            subcat.categoryId,
+          )
+          if (productIds && productIds.length > 0) {
+            ;(subcat as any).productIds = productIds
+            ;(subcat as any).productCount = productIds.length
+            totalProductIds += productIds.length
+            console.log(
+              `  ✅ ${subcat.categoryName}: ${productIds.length} ürün`,
+            )
+            processedSubcats++
+          }
+        }
+
+        // Alt kategoriler varsa onları da işle (sınırlı sayıda)
+        if (subcat.subcategories && Array.isArray(subcat.subcategories)) {
+          let deepCount = 0
+          for (const deepSub of subcat.subcategories) {
+            if (deepCount >= 3) break // Her alt kategoriden 3 tane
+
+            if (deepSub.isLeaf) {
+              const productIds = await fetchProductIds(
+                category.brand,
+                deepSub.id,
+              )
+              if (productIds && productIds.length > 0) {
+                deepSub.productIds = productIds
+                deepSub.productCount = productIds.length
+                totalProductIds += productIds.length
+                console.log(`    ✅ ${deepSub.name}: ${productIds.length} ürün`)
+                deepCount++
+              }
+            }
+
+            // Rate limiting
+            await new Promise((resolve) => setTimeout(resolve, 300))
+          }
+        }
+
+        // Rate limiting
+        await new Promise((resolve) => setTimeout(resolve, 300))
+      } catch (error) {
+        console.error(`❌ ${subcat.categoryName} product ID hatası:`, error)
+      }
+    }
+
+    processedCategories++
+    if (processedCategories >= 4) break // Tüm kategorileri işle ama sınırlı
+  }
+
+  console.log(`\n🎉 Product ID Toplama Tamamlandı!`)
+  console.log(`📊 Toplam Product ID: ${totalProductIds}`)
+
+  return categories
+}
+
+// Marka bazında product ID çekme
+async function fetchProductIds(
+  brand: string,
+  categoryId: number,
+): Promise<string[]> {
+  try {
+    if (brand === 'Zara') {
+      return await fetchZaraProductIds(categoryId)
+    } else if (brand === 'Pull&Bear') {
+      return await fetchPullBearProductIds(categoryId)
+    }
+    return []
+  } catch (error) {
+    console.error(`Product ID fetch error for ${brand} ${categoryId}:`, error)
+    return []
+  }
+}
+
+// Zara product ID'leri çekme
+async function fetchZaraProductIds(categoryId: number): Promise<string[]> {
+  try {
+    const url = `https://www.zara.com/tr/tr/category/${categoryId}/products?ajax=true`
+    const response = await fetch(url)
+    const data: any = await response.json()
+
+    const productIds: string[] = []
+
+    if (data.productGroups?.[0]?.elements?.[0]?.commercialComponents) {
+      for (const component of data.productGroups[0].elements[0]
+        .commercialComponents) {
+        if (component.id) {
+          productIds.push(component.id.toString())
+        }
+      }
+    }
+
+    return productIds
+  } catch (error) {
+    console.error(`Zara product IDs fetch error for ${categoryId}:`, error)
+    return []
+  }
+}
+
+// Pull&Bear product ID'leri çekme
+async function fetchPullBearProductIds(categoryId: number): Promise<string[]> {
+  try {
+    const url = `https://www.pullandbear.com/itxrest/2/catalog/store/25009621/30359503/category/${categoryId}/product?languageId=-17&appId=1`
+    const response = await fetch(url)
+    const data: any = await response.json()
+
+    const productIds: string[] = []
+
+    if (data.productIds && Array.isArray(data.productIds)) {
+      productIds.push(...data.productIds.map((id: any) => id.toString()))
+    }
+
+    return productIds
+  } catch (error) {
+    console.error(`Pull&Bear product IDs fetch error for ${categoryId}:`, error)
+    return []
+  }
+}
+
 async function clearOutputDirectory(): Promise<void> {
   const outputDir = path.join(process.cwd(), 'output')
 
@@ -523,6 +689,239 @@ async function saveToJson(data: any[], filename: string): Promise<void> {
   } catch (error) {
     console.error('❌ Dosya kaydetme hatası:', error)
     throw error
+  }
+}
+
+// Test için 24 ürün seçme ve detaylarını çekme
+async function testMinimalProductDetails() {
+  try {
+    // Önce kategori dosyasını oku
+    const outputDir = path.join(process.cwd(), 'output')
+    const files = fs.readdirSync(outputDir)
+    const categoryFile = files.find((f) =>
+      f.startsWith('hierarchical-subcategories-'),
+    )
+
+    if (!categoryFile) {
+      throw new Error('Kategori dosyası bulunamadı! Önce kategorileri çekin.')
+    }
+
+    const categoryData = JSON.parse(
+      fs.readFileSync(path.join(outputDir, categoryFile), 'utf8'),
+    )
+
+    // Her kategoriden 6 ürün ID'si topla (4 kategori × 6 = 24 ürün)
+    const testProductIds: Array<{
+      id: string
+      brand: string
+      categoryName: string
+    }> = []
+
+    for (const category of categoryData) {
+      let count = 0
+      for (const subcat of category.subcategories) {
+        if (count >= 6) break // Kategori başına 6 ürün
+
+        // Leaf kategorileri kullan - bunlarda productIds olabilir
+        if (
+          subcat.isLeaf &&
+          subcat.productIds &&
+          subcat.productIds.length > 0
+        ) {
+          const productId = subcat.productIds[0] // İlk ürün ID'sini al
+          testProductIds.push({
+            id: productId,
+            brand: category.brand,
+            categoryName: subcat.categoryName,
+          })
+          count++
+        }
+
+        // Alt kategorilere de bak
+        if (subcat.subcategories && Array.isArray(subcat.subcategories)) {
+          for (const deepSub of subcat.subcategories) {
+            if (count >= 6) break
+            if (
+              deepSub.isLeaf &&
+              deepSub.productIds &&
+              deepSub.productIds.length > 0
+            ) {
+              const productId = deepSub.productIds[0]
+              testProductIds.push({
+                id: productId,
+                brand: category.brand,
+                categoryName: `${subcat.categoryName} > ${deepSub.name}`,
+              })
+              count++
+            }
+          }
+        }
+      }
+    }
+
+    console.log(`📦 Test için ${testProductIds.length} ürün ID'si toplandı`)
+
+    if (testProductIds.length === 0) {
+      console.log(
+        '⚠️ Test için ürün ID bulunamadı. Product ID collection gerekli.',
+      )
+      return
+    }
+
+    // Ürün detaylarını çek
+    const testResults: MinimalProduct[] = []
+    let successCount = 0
+    let errorCount = 0
+
+    for (const productInfo of testProductIds) {
+      try {
+        console.log(`🔍 ${productInfo.brand} - ${productInfo.id} çekiliyor...`)
+
+        let productDetail: MinimalProduct | null = null
+
+        if (productInfo.brand === 'Zara') {
+          productDetail = await fetchZaraProductDetail(productInfo.id)
+        } else if (productInfo.brand === 'Pull&Bear') {
+          productDetail = await fetchPullBearProductDetail(productInfo.id)
+        }
+
+        if (productDetail) {
+          testResults.push(productDetail)
+          successCount++
+          console.log(
+            `✅ ${productDetail.name} - ${productDetail.price / 100}₺`,
+          )
+        } else {
+          errorCount++
+          console.log(`❌ ${productInfo.id} detay çekilemedi`)
+        }
+
+        // Rate limiting
+        await new Promise((resolve) => setTimeout(resolve, 500))
+      } catch (error) {
+        errorCount++
+        console.log(`❌ ${productInfo.id} hatası: ${error}`)
+      }
+    }
+
+    // Test sonuçlarını kaydet
+    if (testResults.length > 0) {
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-')
+      await saveToJson(
+        testResults,
+        `product-details-minimal-v4-${timestamp}.json`,
+      )
+
+      console.log(`\n🎉 24 Ürün Test Tamamlandı!`)
+      console.log(`✅ Başarılı: ${successCount}/${testProductIds.length}`)
+      console.log(`❌ Hatalı: ${errorCount}/${testProductIds.length}`)
+      console.log(
+        `📊 Başarı Oranı: %${(
+          (successCount / testProductIds.length) *
+          100
+        ).toFixed(1)}`,
+      )
+
+      // İstatistikler
+      const avgColors =
+        testResults.reduce((sum, p) => sum + p.colors.length, 0) /
+        testResults.length
+      const avgImages =
+        testResults.reduce((sum, p) => sum + p.images.length, 0) /
+        testResults.length
+      const avgSizes =
+        testResults.reduce(
+          (sum, p) => sum + p.colors.reduce((s, c) => s + c.sizes.length, 0),
+          0,
+        ) / testResults.length
+
+      console.log(`📈 İstatistikler:`)
+      console.log(`   • Ortalama Renk: ${avgColors.toFixed(1)}/ürün`)
+      console.log(`   • Ortalama Görsel: ${avgImages.toFixed(1)}/ürün`)
+      console.log(`   • Ortalama Beden: ${avgSizes.toFixed(1)}/ürün`)
+    }
+  } catch (error) {
+    console.error('❌ Test hatası:', error)
+  }
+}
+
+// Zara ürün detay çekme
+async function fetchZaraProductDetail(
+  productId: string,
+): Promise<MinimalProduct | null> {
+  try {
+    const url = `https://www.zara.com/tr/tr/products-details?productIds=${productId}&ajax=true`
+    const response = await fetch(url)
+    const data: any = await response.json()
+
+    if (!data || !data['0']) return null
+
+    const product = data['0']
+
+    return {
+      id: productId,
+      name: product.name || 'N/A',
+      description: product.description || product.name || 'N/A',
+      price: product.detail?.colors?.[0]?.price || 0,
+      currency: 'TRY',
+      colors: (product.detail?.colors || []).map((color: any) => ({
+        id: color.id || 'N/A',
+        name: color.name || 'N/A',
+        sizes: (color.sizes || []).map((size: any) => ({
+          name: size.name || 'N/A',
+          sku: size.sku || 0,
+          availability: size.availability || 'N/A',
+          price: size.price || color.price || 0,
+        })),
+      })),
+      images:
+        product.detail?.colors?.[0]?.xmedia
+          ?.map((img: any) => img.url)
+          .filter(Boolean) || [],
+    }
+  } catch (error) {
+    console.error(`Zara ${productId} fetch error:`, error)
+    return null
+  }
+}
+
+// Pull&Bear ürün detay çekme
+async function fetchPullBearProductDetail(
+  productId: string,
+): Promise<MinimalProduct | null> {
+  try {
+    const url = `https://www.pullandbear.com/itxrest/2/catalog/store/25009621/30359503/category/0/product/${productId}/detail?languageId=-17&appId=1`
+    const response = await fetch(url)
+    const data: any = await response.json()
+
+    if (!data?.bundleProductSummaries?.[0]) return null
+
+    const product = data.bundleProductSummaries[0]
+
+    return {
+      id: productId,
+      name: product.name || 'N/A',
+      description: product.detail?.description || product.name || 'N/A',
+      price: product.detail?.colors?.[0]?.price || 0,
+      currency: 'TRY',
+      colors: (product.detail?.colors || []).map((color: any) => ({
+        id: color.id || 'N/A',
+        name: color.name || 'N/A',
+        sizes: (color.sizes || []).map((size: any) => ({
+          name: size.name || 'N/A',
+          sku: size.sku || 0,
+          availability: size.availability || 'N/A',
+          price: size.price || color.price || 0,
+        })),
+      })),
+      images:
+        product.detail?.colors?.[0]?.xmedia
+          ?.map((img: any) => img.url)
+          .filter(Boolean) || [],
+    }
+  } catch (error) {
+    console.error(`Pull&Bear ${productId} fetch error:`, error)
+    return null
   }
 }
 
@@ -565,19 +964,28 @@ async function main() {
       filteredCategories,
     )
 
+    // Product ID'leri topla
+    console.log('\n📦 Product ID toplanıyor...')
+    const categoriesWithProductIds = await collectProductIds(
+      targetSubcategories,
+    )
+
     // Sadece hiyerarşik alt kategorileri kaydet
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-')
     await saveToJson(
-      targetSubcategories,
+      categoriesWithProductIds,
       `hierarchical-subcategories-${timestamp}.json`,
     )
 
-    console.log('\n� Hiyerarşik kategoriler başarıyla çekildi ve kaydedildi!')
-    console.log('🎯 Hedef alt kategori sayısı:', targetSubcategories.length)
+    console.log('\n✅ Hiyerarşik kategoriler başarıyla çekildi ve kaydedildi!')
+    console.log(
+      '🎯 Hedef alt kategori sayısı:',
+      categoriesWithProductIds.length,
+    )
 
     // Leaf kategori sayısını hesapla
     let leafCount = 0
-    targetSubcategories.forEach((subcat) => {
+    categoriesWithProductIds.forEach((subcat) => {
       subcat.subcategories.forEach((sub: any) => {
         if (sub.isLeaf) {
           leafCount++
@@ -595,7 +1003,7 @@ async function main() {
 
     // Hedef alt kategorileri göster
     console.log('\n📋 Hiyerarşik Alt Kategoriler (Eşleştirmeli):')
-    targetSubcategories.forEach((subcat) => {
+    categoriesWithProductIds.forEach((subcat) => {
       console.log(
         `  • ${subcat.brand} ${subcat.gender}: ${subcat.mainCategoryName} (ID: ${subcat.mainCategoryId})`,
       )
@@ -608,6 +1016,28 @@ async function main() {
         )
       })
     })
+
+    // Kullanıcıya soru sor: 24 ürün test etmek istiyor mu?
+    console.log('\n❓ 24 ürün detay test etmek ister misiniz? (y/N)')
+    const readline = await import('readline')
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout,
+    })
+
+    const answer = await new Promise<string>((resolve) => {
+      rl.question('', (input) => {
+        rl.close()
+        resolve(input.toLowerCase().trim())
+      })
+    })
+
+    if (answer === 'y' || answer === 'yes' || answer === 'evet') {
+      console.log('\n🧪 24 Ürün Detay Test Başlatılıyor...')
+      await testMinimalProductDetails()
+    } else {
+      console.log('\n⏭️ 24 ürün test atlandı')
+    }
   } catch (error) {
     console.error('\n❌ Ana işlem hatası:', error)
     throw error
