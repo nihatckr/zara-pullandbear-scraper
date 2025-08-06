@@ -1,0 +1,135 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// Main category data structure - matches our JSON exactly
+model CategoryData {
+  id               Int               @id @default(autoincrement())
+  brand            String            @db.VarChar(50)
+  gender           String            @db.VarChar(10)
+  mainCategoryId   Int
+  mainCategoryName String            @db.VarChar(255)
+  timestamp        DateTime
+  subcategories    SubcategoryData[]
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+
+  @@map("category_data")
+}
+
+// Subcategory structure
+model SubcategoryData {
+  id                   Int     @id @default(autoincrement())
+  categoryId           Int
+  categoryName         String  @db.VarChar(255)
+  isLeaf               Boolean @default(false)
+  matchingId           Int?
+  matchingCategoryName String? @db.VarChar(255)
+  productCount         Int     @default(0)
+
+  // Relations
+  categoryData   CategoryData        @relation(fields: [categoryDataId], references: [id], onDelete: Cascade)
+  categoryDataId Int
+  subcategories  NestedSubcategory[]
+  productIds     ProductId[]
+
+  @@map("subcategory_data")
+}
+
+// Nested subcategories for deeper levels
+model NestedSubcategory {
+  id           Int     @id @default(autoincrement())
+  name         String  @db.VarChar(255)
+  isLeaf       Boolean @default(false)
+  productCount Int     @default(0)
+
+  // Relations
+  subcategoryData   SubcategoryData @relation(fields: [subcategoryDataId], references: [id], onDelete: Cascade)
+  subcategoryDataId Int
+  productIds        ProductId[]
+
+  @@map("nested_subcategory")
+}
+
+// Product IDs associated with categories
+model ProductId {
+  id        Int    @id @default(autoincrement())
+  productId String @db.VarChar(50)
+
+  // Relations (one of these will be null)
+  subcategoryData     SubcategoryData?   @relation(fields: [subcategoryDataId], references: [id], onDelete: Cascade)
+  subcategoryDataId   Int?
+  nestedSubcategory   NestedSubcategory? @relation(fields: [nestedSubcategoryId], references: [id], onDelete: Cascade)
+  nestedSubcategoryId Int?
+
+  @@map("product_ids")
+}
+
+// Product details structure - matches our minimal JSON exactly
+model Product {
+  id          String   @id @db.VarChar(50) // Product ID as primary key
+  name        String   @db.VarChar(500)
+  description String   @db.Text
+  price       Int // Price in cents/kuruş
+  currency    String   @db.VarChar(10)
+  brand       String   @db.VarChar(50)
+  scrapedAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  colors ProductColor[]
+  images ProductImage[]
+
+  @@map("products")
+}
+
+// Product colors
+model ProductColor {
+  id      Int    @id @default(autoincrement())
+  colorId String @db.VarChar(50)
+  name    String @db.VarChar(255)
+
+  // Relations
+  product   Product       @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productId String        @db.VarChar(50)
+  sizes     ProductSize[]
+
+  @@map("product_colors")
+}
+
+// Product sizes
+model ProductSize {
+  id           Int    @id @default(autoincrement())
+  name         String @db.VarChar(50)
+  sku          Int
+  availability String @db.VarChar(50)
+  price        Int // Price in cents/kuruş
+
+  // Relations
+  color   ProductColor @relation(fields: [colorId], references: [id], onDelete: Cascade)
+  colorId Int
+
+  @@map("product_sizes")
+}
+
+// Product images
+model ProductImage {
+  id    Int    @id @default(autoincrement())
+  url   String @db.Text
+  order Int    @default(0)
+
+  // Relations
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productId String  @db.VarChar(50)
+
+  @@map("product_images")
+}

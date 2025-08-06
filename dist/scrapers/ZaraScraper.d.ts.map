@@ -1,0 +1,1 @@
+{"version":3,"file":"ZaraScraper.d.ts","sourceRoot":"","sources":["../../src/scrapers/ZaraScraper.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,mBAAmB,EAAE,cAAc,EAAE,MAAM,UAAU,CAAA;AAG9D,qBAAa,WAAW;IAChB,eAAe,IAAI,OAAO,CAAC,mBAAmB,CAAC;IA6B/C,eAAe,CAAC,UAAU,EAAE,MAAM,GAAG,OAAO,CAAC,MAAM,EAAE,CAAC;IAkCtD,kBAAkB,CAAC,SAAS,EAAE,MAAM,GAAG,OAAO,CAAC,cAAc,GAAG,IAAI,CAAC;CA8C5E"}

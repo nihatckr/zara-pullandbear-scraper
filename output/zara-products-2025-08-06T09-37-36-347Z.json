@@ -1,0 +1,159 @@
+[
+  {
+    "id": "464990655",
+    "name": "DÜŞÜK OMUZLU ZW COLLECTION KARELİ BLAZER",
+    "description": "DÜŞÜK OMUZLU ZW COLLECTION KARELİ BLAZER",
+    "price": 469000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "500",
+        "name": "Yeşil",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 464973153,
+            "availability": "in_stock",
+            "price": 469000
+          },
+          {
+            "name": "S",
+            "sku": 464973154,
+            "availability": "in_stock",
+            "price": 469000
+          },
+          {
+            "name": "M",
+            "sku": 464973155,
+            "availability": "in_stock",
+            "price": 469000
+          },
+          {
+            "name": "L",
+            "sku": 464973156,
+            "availability": "in_stock",
+            "price": 469000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/5adc/113b/1c4c4c3b88bc/7ebf9469a349/08383032500-p/08383032500-p.jpg?ts=1753958567655&w={width}",
+      "https://static.zara.net/assets/public/f6be/8f37/24c646db98ba/9ca330133ec6/08383032500-a1/08383032500-a1.jpg?ts=1753958566025&w={width}",
+      "https://static.zara.net/assets/public/9dfa/caee/7ab14de1a061/dcfb13cec26b/08383032500-e1/08383032500-e1.jpg?ts=1754042626657&w={width}",
+      "https://static.zara.net/assets/public/91b7/98c9/d9964ca09c34/d907999b2751/08383032500-e2/08383032500-e2.jpg?ts=1754042627745&w={width}",
+      "https://static.zara.net/assets/public/f1ee/7812/2db34cb1a3fd/df9a6ee45078/08383032500-e3/08383032500-e3.jpg?ts=1754042633074&w={width}"
+    ]
+  },
+  {
+    "id": "462239664",
+    "name": "AKSESSUAR KEMERLİ TULUM",
+    "description": "AKSESSUAR KEMERLİ TULUM",
+    "price": 229000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "420",
+        "name": "Mavimsi",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 462230067,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "S",
+            "sku": 462230068,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "M",
+            "sku": 462230069,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "L",
+            "sku": 462230070,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "XL",
+            "sku": 462230066,
+            "availability": "in_stock",
+            "price": 229000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/9daa/5913/1a544b34a9d8/492ff739e7bb/03897167420-p/03897167420-p.jpg?ts=1753965830020&w={width}",
+      "https://static.zara.net/assets/public/6d63/b2e5/bbf14005a6ff/21ff19608fff/03897167420-a1/03897167420-a1.jpg?ts=1753965830291&w={width}",
+      "https://static.zara.net/assets/public/c7be/de60/b3a244ba91b4/3ce74977c07d/03897167420-a2/03897167420-a2.jpg?ts=1753965830102&w={width}",
+      "https://static.zara.net/assets/public/3c34/a656/a39f4330b8e5/e4e304a298ed/03897167420-a3/03897167420-a3.jpg?ts=1753965830080&w={width}",
+      "https://static.zara.net/assets/public/e517/4ef8/d537485e85bf/9c5f26814143/03897167420-e1/03897167420-e1.jpg?ts=1753973391245&w={width}",
+      "https://static.zara.net/assets/public/4f4d/6385/b4284841a8bd/f399de4df92e/03897167420-e2/03897167420-e2.jpg?ts=1753973391123&w={width}",
+      "https://static.zara.net/assets/public/ed80/4181/3d264d7ea499/42f688e00998/03897167420-e3/03897167420-e3.jpg?ts=1753973391678&w={width}"
+    ]
+  },
+  {
+    "id": "480773496",
+    "name": "KRUVAZE KISA CEKET",
+    "description": "KRUVAZE KISA CEKET",
+    "price": 279000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "401",
+        "name": "LACİVERT",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 452746693,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "S",
+            "sku": 452746694,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "M",
+            "sku": 452746695,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "L",
+            "sku": 452746691,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "XL",
+            "sku": 452746692,
+            "availability": "in_stock",
+            "price": 279000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/ba38/6a93/1dd44aed99af/b64663c29cee/03588885401-p/03588885401-p.jpg?ts=1754047181080&w={width}",
+      "https://static.zara.net/assets/public/7669/4861/f07249d6812a/b6378b854aa2/03588885401-a1/03588885401-a1.jpg?ts=1754047181519&w={width}",
+      "https://static.zara.net/assets/public/02a1/4a9c/b1bf44ba88a8/709ee6df17d3/03588885401-a2/03588885401-a2.jpg?ts=1754047180987&w={width}",
+      "https://static.zara.net/assets/public/3858/f438/467643ac9da7/003a9fd16256/03588885401-a3/03588885401-a3.jpg?ts=1754047181416&w={width}",
+      "https://static.zara.net/assets/public/344d/9eef/4e39477ab1fc/e1b79c764d3f/03588885401-a4/03588885401-a4.jpg?ts=1754047181297&w={width}",
+      "https://static.zara.net/assets/public/cd35/5063/733e466b9aa2/8b31517d3905/03588885401-a5/03588885401-a5.jpg?ts=1754047180871&w={width}",
+      "https://static.zara.net/assets/public/6b95/a4d5/45cf4892b4d8/924eef1e2f4d/03588885401-a6/03588885401-a6.jpg?ts=1754047181539&w={width}",
+      "https://static.zara.net/assets/public/4e68/8a37/25dd44ed9350/cc89a2b00173/03588885401-e1/03588885401-e1.jpg?ts=1753973392693&w={width}",
+      "https://static.zara.net/assets/public/5d2d/4aa8/7d5d4fb4bfd5/d490f3309988/03588885401-e2/03588885401-e2.jpg?ts=1753973392860&w={width}",
+      "https://static.zara.net/assets/public/fcc6/6cd0/09b341579158/74ea2cf2963a/03588885401-e3/03588885401-e3.jpg?ts=1753973393351&w={width}"
+    ]
+  }
+]

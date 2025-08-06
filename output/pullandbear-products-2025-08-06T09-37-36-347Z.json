@@ -1,0 +1,317 @@
+[
+  {
+    "id": "692156810",
+    "name": "Paça detaylı, düz kesim, bol kesim jean",
+    "description": "Paça detaylı, düz kesim, bol kesim jean",
+    "price": 169000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "427",
+        "name": "Orta mavi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 692152466,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "34",
+            "sku": 692152482,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "36",
+            "sku": 692152479,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "38",
+            "sku": 692152477,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "40",
+            "sku": 692152475,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "42",
+            "sku": 692152487,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "44",
+            "sku": 692152486,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "46",
+            "sku": 692152485,
+            "availability": "N/A",
+            "price": "169000"
+          }
+        ]
+      },
+      {
+        "id": "712",
+        "name": "Ekru",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 692152473,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "34",
+            "sku": 692152471,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "36",
+            "sku": 692152469,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "38",
+            "sku": 692152467,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "40",
+            "sku": 692152483,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "42",
+            "sku": 692152480,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "44",
+            "sku": 692152478,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "46",
+            "sku": 692152476,
+            "availability": "N/A",
+            "price": "169000"
+          }
+        ]
+      },
+      {
+        "id": "802",
+        "name": "Gri",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 692152491,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "34",
+            "sku": 692152490,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "36",
+            "sku": 692152489,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "38",
+            "sku": 692152488,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "40",
+            "sku": 692152495,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "42",
+            "sku": 692152494,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "44",
+            "sku": 692152493,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "46",
+            "sku": 692152492,
+            "availability": "N/A",
+            "price": "169000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/056b/e604/14ea4159af3f/c1799f6783fc/03681314712-A8M/03681314712-A8M.jpg?ts=1740054055937&w=:width:",
+      "https://static.pullandbear.net/assets/public/aaf1/e5f9/821444ca9262/1155483ace30/03681314712-A20M/03681314712-A20M.jpg?ts=1740054056034&w=:width:",
+      "https://static.pullandbear.net/assets/public/fd60/2c68/e530482681e4/99020165a11b/03681314712-A6M/03681314712-A6M.jpg?ts=1740562323983&w=:width:",
+      "https://static.pullandbear.net/assets/public/0cdc/3f10/36c0435fbd6d/9f8792929c49/03681314712-C/03681314712-C.jpg?ts=1740054055976&w=:width:",
+      "https://static.pullandbear.net/assets/public/eb81/7ab2/64ab494a8c39/f047d1300201/03687310712-A4M/03687310712-A4M.jpg?ts=1751444751257&w=:width:",
+      "https://static.pullandbear.net/assets/public/663b/67b6/85484d2daa5d/a5b5d18ee501/03687310712-A2M/03687310712-A2M.jpg?ts=1751444751199&w=:width:",
+      "https://static.pullandbear.net/assets/public/a8bb/dfe2/7d0b42c9ac65/9e45d16d451a/03687310712-M/03687310712-M.jpg?ts=1751444751694&w=:width:",
+      "https://static.pullandbear.net/assets/public/2514/90ef/65994e7b89e4/885a8b7571c4/COLOR_712/COLOR_712.jpg?ts=1741606836986&w=:width:",
+      "https://static.pullandbear.net/assets/public/0795/936e/9fa74868ae43/35d96306279e/03687310712-A3M/03687310712-A3M.jpg?ts=1751444751518&w=:width:",
+      "https://static.pullandbear.net/assets/public/4b80/ceb6/ffdf44389416/fd0689796a55/03687310712-A5M/03687310712-A5M.jpg?ts=1751467640792&w=:width:"
+    ]
+  },
+  {
+    "id": "694018001",
+    "name": "Dikişli bol kesim jean",
+    "description": "Dikişli bol kesim jean",
+    "price": 209000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "406",
+        "name": "Açık mavi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 694016922,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "34",
+            "sku": 694016921,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "36",
+            "sku": 694016928,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "38",
+            "sku": 694016927,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "40",
+            "sku": 694016926,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "42",
+            "sku": 694016925,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "44",
+            "sku": 694016924,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "46",
+            "sku": 694016923,
+            "availability": "N/A",
+            "price": "209000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/0198/fa48/d68848608b68/a31d3edb3e9b/07687316406-M/07687316406-M.jpg?ts=1752677996306&w=:width:",
+      "https://static.pullandbear.net/assets/public/abf8/09af/f09c4bf79682/f2e5be441bbc/07687316406-A2M/07687316406-A2M.jpg?ts=1752677994992&w=:width:",
+      "https://static.pullandbear.net/assets/public/4448/1bf8/bff641d2b8b5/5cd688f2bae8/07687316406-A3M/07687316406-A3M.jpg?ts=1752760795302&w=:width:",
+      "https://static.pullandbear.net/assets/public/4e68/5145/ec8845c3ae27/cfa5e81c5d74/07687316406-A4M/07687316406-A4M.jpg?ts=1752677995687&w=:width:",
+      "https://static.pullandbear.net/assets/public/6ead/a958/62b945b5b119/8e5dfedd0943/07687316406-A5M/07687316406-A5M.jpg?ts=1752677995850&w=:width:",
+      "https://static.pullandbear.net/assets/public/bd90/6ca9/ea024820b533/ad42ab31bba7/07687316406-A6M/07687316406-A6M.jpg?ts=1750778585499&w=:width:",
+      "https://static.pullandbear.net/assets/public/eb89/ca73/780e4fa0bc6d/b4a1f4b58541/07687316406-A20M/07687316406-A20M.jpg?ts=1750778598474&w=:width:",
+      "https://static.pullandbear.net/assets/public/1521/86e7/ba6a44098d5d/c7e3a8ce5cc1/07687316406-A8M/07687316406-A8M.jpg?ts=1750778602810&w=:width:",
+      "https://static.pullandbear.net/assets/public/c64b/f31e/982341c5bcd8/c3e05365e631/COLOR_406/COLOR_406.jpg?ts=1741606750948&w=:width:",
+      "https://static.pullandbear.net/assets/public/d841/bdbc/b8f54437bccf/473a172adc43/07687316406-C/07687316406-C.jpg?ts=1750778611478&w=:width:"
+    ]
+  },
+  {
+    "id": "698625044",
+    "name": "Uzun süper bol tulum",
+    "description": "Uzun süper bol tulum",
+    "price": 209000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "700",
+        "name": "Kahverengi",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 698620509,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "S",
+            "sku": 698620507,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "M",
+            "sku": 698620508,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "L",
+            "sku": 698620505,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "XL",
+            "sku": 698620506,
+            "availability": "N/A",
+            "price": "209000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/3c35/324c/8150409f9867/086e5f8123aa/07638307700-A8M/07638307700-A8M.jpg?ts=1753179563172&w=:width:",
+      "https://static.pullandbear.net/assets/public/cf7d/ed1a/9f144533ae4b/0ad85d69a484/07638307700-A6M/07638307700-A6M.jpg?ts=1753179566022&w=:width:",
+      "https://static.pullandbear.net/assets/public/d346/660e/31e444e7b80e/4b83e3348ea4/07638307700-Z/07638307700-Z.jpg?ts=1753179568550&w=:width:",
+      "https://static.pullandbear.net/assets/public/8bf7/247c/7d31410284da/5b389d7797c1/07638307700-C/07638307700-C.jpg?ts=1753179579208&w=:width:",
+      "https://static.pullandbear.net/assets/public/9dd2/ace7/e033424b9778/0beeba0b889d/07638307700-K2/07638307700-K2.jpg?ts=1753888305034&w=:width:",
+      "https://static.pullandbear.net/assets/public/67bb/75b5/952e439ca54a/16f86f09ab49/07638307700-K1/07638307700-K1.jpg?ts=1753888305765&w=:width:",
+      "https://static.pullandbear.net/assets/public/637f/5601/b9b444299c0f/df8db32358d0/07638307700-K3/07638307700-K3.jpg?ts=1753888306025&w=:width:",
+      "https://static.pullandbear.net/assets/public/0c54/e10d/df2f44da95d7/8d69d3f1c5b8/07638307700-k4/07638307700-k4.jpg?ts=1753972246036&w=:width:",
+      "https://static.pullandbear.net/assets/public/61f0/b5d1/f30f437285d9/407a250e0924/07638307700-A7M/07638307700-A7M.jpg?ts=1753978905788&w=:width:",
+      "https://static.pullandbear.net/assets/public/42fa/85d5/c5d34a7790f0/9e17bb3a69c0/07638307700-D2/07638307700-D2.jpg?ts=1753978905777&w=:width:"
+    ]
+  }
+]
