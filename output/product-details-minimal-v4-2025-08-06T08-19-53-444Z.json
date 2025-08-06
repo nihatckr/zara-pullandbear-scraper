@@ -1,0 +1,3395 @@
+[
+  {
+    "id": "480773496",
+    "name": "KRUVAZE KISA CEKET",
+    "description": "KRUVAZE KISA CEKET",
+    "price": 279000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "401",
+        "name": "LACİVERT",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 452746693,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "S",
+            "sku": 452746694,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "M",
+            "sku": 452746695,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "L",
+            "sku": 452746691,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "XL",
+            "sku": 452746692,
+            "availability": "in_stock",
+            "price": 279000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/ba38/6a93/1dd44aed99af/b64663c29cee/03588885401-p/03588885401-p.jpg?ts=1754047181080&w={width}",
+      "https://static.zara.net/assets/public/7669/4861/f07249d6812a/b6378b854aa2/03588885401-a1/03588885401-a1.jpg?ts=1754047181519&w={width}",
+      "https://static.zara.net/assets/public/02a1/4a9c/b1bf44ba88a8/709ee6df17d3/03588885401-a2/03588885401-a2.jpg?ts=1754047180987&w={width}",
+      "https://static.zara.net/assets/public/3858/f438/467643ac9da7/003a9fd16256/03588885401-a3/03588885401-a3.jpg?ts=1754047181416&w={width}",
+      "https://static.zara.net/assets/public/344d/9eef/4e39477ab1fc/e1b79c764d3f/03588885401-a4/03588885401-a4.jpg?ts=1754047181297&w={width}",
+      "https://static.zara.net/assets/public/cd35/5063/733e466b9aa2/8b31517d3905/03588885401-a5/03588885401-a5.jpg?ts=1754047180871&w={width}",
+      "https://static.zara.net/assets/public/6b95/a4d5/45cf4892b4d8/924eef1e2f4d/03588885401-a6/03588885401-a6.jpg?ts=1754047181539&w={width}",
+      "https://static.zara.net/assets/public/4e68/8a37/25dd44ed9350/cc89a2b00173/03588885401-e1/03588885401-e1.jpg?ts=1753973392693&w={width}",
+      "https://static.zara.net/assets/public/5d2d/4aa8/7d5d4fb4bfd5/d490f3309988/03588885401-e2/03588885401-e2.jpg?ts=1753973392860&w={width}",
+      "https://static.zara.net/assets/public/fcc6/6cd0/09b341579158/74ea2cf2963a/03588885401-e3/03588885401-e3.jpg?ts=1753973393351&w={width}"
+    ]
+  },
+  {
+    "id": "464990655",
+    "name": "DÜŞÜK OMUZLU ZW COLLECTION KARELİ BLAZER",
+    "description": "DÜŞÜK OMUZLU ZW COLLECTION KARELİ BLAZER",
+    "price": 469000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "500",
+        "name": "Yeşil",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 464973153,
+            "availability": "in_stock",
+            "price": 469000
+          },
+          {
+            "name": "S",
+            "sku": 464973154,
+            "availability": "in_stock",
+            "price": 469000
+          },
+          {
+            "name": "M",
+            "sku": 464973155,
+            "availability": "in_stock",
+            "price": 469000
+          },
+          {
+            "name": "L",
+            "sku": 464973156,
+            "availability": "in_stock",
+            "price": 469000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/5adc/113b/1c4c4c3b88bc/7ebf9469a349/08383032500-p/08383032500-p.jpg?ts=1753958567655&w={width}",
+      "https://static.zara.net/assets/public/f6be/8f37/24c646db98ba/9ca330133ec6/08383032500-a1/08383032500-a1.jpg?ts=1753958566025&w={width}",
+      "https://static.zara.net/assets/public/9dfa/caee/7ab14de1a061/dcfb13cec26b/08383032500-e1/08383032500-e1.jpg?ts=1754042626657&w={width}",
+      "https://static.zara.net/assets/public/91b7/98c9/d9964ca09c34/d907999b2751/08383032500-e2/08383032500-e2.jpg?ts=1754042627745&w={width}",
+      "https://static.zara.net/assets/public/f1ee/7812/2db34cb1a3fd/df9a6ee45078/08383032500-e3/08383032500-e3.jpg?ts=1754042633074&w={width}"
+    ]
+  },
+  {
+    "id": "462239664",
+    "name": "AKSESSUAR KEMERLİ TULUM",
+    "description": "AKSESSUAR KEMERLİ TULUM",
+    "price": 229000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "420",
+        "name": "Mavimsi",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 462230067,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "S",
+            "sku": 462230068,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "M",
+            "sku": 462230069,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "L",
+            "sku": 462230070,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "XL",
+            "sku": 462230066,
+            "availability": "in_stock",
+            "price": 229000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/9daa/5913/1a544b34a9d8/492ff739e7bb/03897167420-p/03897167420-p.jpg?ts=1753965830020&w={width}",
+      "https://static.zara.net/assets/public/6d63/b2e5/bbf14005a6ff/21ff19608fff/03897167420-a1/03897167420-a1.jpg?ts=1753965830291&w={width}",
+      "https://static.zara.net/assets/public/c7be/de60/b3a244ba91b4/3ce74977c07d/03897167420-a2/03897167420-a2.jpg?ts=1753965830102&w={width}",
+      "https://static.zara.net/assets/public/3c34/a656/a39f4330b8e5/e4e304a298ed/03897167420-a3/03897167420-a3.jpg?ts=1753965830080&w={width}",
+      "https://static.zara.net/assets/public/e517/4ef8/d537485e85bf/9c5f26814143/03897167420-e1/03897167420-e1.jpg?ts=1753973391245&w={width}",
+      "https://static.zara.net/assets/public/4f4d/6385/b4284841a8bd/f399de4df92e/03897167420-e2/03897167420-e2.jpg?ts=1753973391123&w={width}",
+      "https://static.zara.net/assets/public/ed80/4181/3d264d7ea499/42f688e00998/03897167420-e3/03897167420-e3.jpg?ts=1753973391678&w={width}"
+    ]
+  },
+  {
+    "id": "468086204",
+    "name": "DESENLİ ÇİÇEKLİ ZW COLLECTION ELBİSE",
+    "description": "DESENLİ ÇİÇEKLİ ZW COLLECTION ELBİSE",
+    "price": 399000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "330",
+        "name": "Çokrenkli",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 468079909,
+            "availability": "in_stock",
+            "price": 399000
+          },
+          {
+            "name": "S",
+            "sku": 468079910,
+            "availability": "in_stock",
+            "price": 399000
+          },
+          {
+            "name": "M",
+            "sku": 468079911,
+            "availability": "in_stock",
+            "price": 399000
+          },
+          {
+            "name": "L",
+            "sku": 468079907,
+            "availability": "in_stock",
+            "price": 399000
+          },
+          {
+            "name": "XL",
+            "sku": 468079908,
+            "availability": "in_stock",
+            "price": 399000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/6854/f3bb/7c134a7f9dca/718a1a2cd5bb/08511050330-p/08511050330-p.jpg?ts=1753892146885&w={width}",
+      "https://static.zara.net/assets/public/beda/a6ba/b414445d978f/194f5b963310/08511050330-a1/08511050330-a1.jpg?ts=1753892146865&w={width}",
+      "https://static.zara.net/assets/public/c0db/0273/7909431f9e58/355b1f8e56b4/08511050330-a2/08511050330-a2.jpg?ts=1753892146989&w={width}",
+      "https://static.zara.net/assets/public/a784/326c/c33d49029984/e630b61e3cd6/08511050330-a3/08511050330-a3.jpg?ts=1753892146791&w={width}",
+      "https://static.zara.net/assets/public/22b8/2453/44bf4b758b27/1ac9865f54af/08511050330-a4/08511050330-a4.jpg?ts=1753892146989&w={width}",
+      "https://static.zara.net/assets/public/a6c4/a121/fc6d4644b8bb/518be1b38bd4/08511050330-e1/08511050330-e1.jpg?ts=1754042622582&w={width}",
+      "https://static.zara.net/assets/public/7e1c/b7fa/04af463ea4c9/12ab094cc9d5/08511050330-e2/08511050330-e2.jpg?ts=1754042622620&w={width}",
+      "https://static.zara.net/assets/public/9b5b/8180/cd3f4e22a6d2/ecdabbe3fb61/08511050330-e3/08511050330-e3.jpg?ts=1754042623239&w={width}"
+    ]
+  },
+  {
+    "id": "480417453",
+    "name": "KISA PULLU FIRFIRLI ELBİSE",
+    "description": "KISA PULLU FIRFIRLI ELBİSE",
+    "price": 209000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 464666153,
+            "availability": "in_stock",
+            "price": 209000
+          },
+          {
+            "name": "S",
+            "sku": 464666154,
+            "availability": "in_stock",
+            "price": 209000
+          },
+          {
+            "name": "M",
+            "sku": 464666155,
+            "availability": "in_stock",
+            "price": 209000
+          },
+          {
+            "name": "L",
+            "sku": 464666156,
+            "availability": "coming_soon",
+            "price": 209000
+          },
+          {
+            "name": "XL",
+            "sku": 464666157,
+            "availability": "coming_soon",
+            "price": 209000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/e23e/2954/d8b44be9aa47/c3c2aaa74d44/08212610800-p/08212610800-p.jpg?ts=1753965844157&w={width}",
+      "https://static.zara.net/assets/public/0f88/96aa/cea24ad7b749/971d308eb716/08212610800-a1/08212610800-a1.jpg?ts=1753965839556&w={width}",
+      "https://static.zara.net/assets/public/aec1/7c24/aa4c48cca864/9c207a4f6fc3/08212610800-a2/08212610800-a2.jpg?ts=1753965839753&w={width}",
+      "https://static.zara.net/assets/public/4e81/047f/a65849b08fb9/9e1779e8fb78/08212610800-a3/08212610800-a3.jpg?ts=1753965844992&w={width}",
+      "https://static.zara.net/assets/public/8e17/d9b6/269847998143/93457c634e33/08212610800-a4/08212610800-a4.jpg?ts=1753965844139&w={width}",
+      "https://static.zara.net/assets/public/6972/398b/beb84f139298/6a703980f645/08212610800-e1/08212610800-e1.jpg?ts=1753977999917&w={width}",
+      "https://static.zara.net/assets/public/996c/2e57/6d1943739ee6/ee845fe74a53/08212610800-e2/08212610800-e2.jpg?ts=1753978000877&w={width}",
+      "https://static.zara.net/assets/public/fbf5/5699/7c654b4996c7/71e804d2581e/08212610800-e3/08212610800-e3.jpg?ts=1753978001068&w={width}"
+    ]
+  },
+  {
+    "id": "463285484",
+    "name": "KEMERLİ KREP BÜSTİYER TULUM",
+    "description": "KEMERLİ KREP BÜSTİYER TULUM",
+    "price": 279000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 463278827,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "S",
+            "sku": 463278828,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "M",
+            "sku": 463278829,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "L",
+            "sku": 463278830,
+            "availability": "in_stock",
+            "price": 279000
+          },
+          {
+            "name": "XL",
+            "sku": 463278831,
+            "availability": "in_stock",
+            "price": 279000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/b663/6fd6/57f045c5b8f2/49f192cfe543/05029178800-p/05029178800-p.jpg?ts=1753971391839&w={width}",
+      "https://static.zara.net/assets/public/546f/8775/473c420080b9/52e82af0bb7f/05029178800-a1/05029178800-a1.jpg?ts=1753971390493&w={width}",
+      "https://static.zara.net/assets/public/af71/437f/6ad9409a8bbe/a57155624c86/05029178800-a2/05029178800-a2.jpg?ts=1753971390845&w={width}",
+      "https://static.zara.net/assets/public/34d7/18f9/b1d44bdb8157/80fca6fca2db/05029178800-a3/05029178800-a3.jpg?ts=1753971390899&w={width}",
+      "https://static.zara.net/assets/public/e549/e09b/141443c489c9/6c5207e2594c/05029178800-a4/05029178800-a4.jpg?ts=1753971390866&w={width}",
+      "https://static.zara.net/assets/public/4300/ac54/c35c43b3b77c/302c0ec6efda/05029178800-a5/05029178800-a5.jpg?ts=1753971391343&w={width}",
+      "https://static.zara.net/assets/public/60b4/f271/f1e2445e88b3/711195217c70/05029178800-e1/05029178800-e1.jpg?ts=1753978009652&w={width}",
+      "https://static.zara.net/assets/public/b525/98c8/6e994d8bab7e/080ba1669e18/05029178800-e2/05029178800-e2.jpg?ts=1753978009537&w={width}",
+      "https://static.zara.net/assets/public/6e5c/643c/f3fe41cd90bd/0a50caf3eaae/05029178800-e3/05029178800-e3.jpg?ts=1753978010489&w={width}"
+    ]
+  },
+  {
+    "id": "465261209",
+    "name": "DÖKÜMLÜ PİLİLİ PANTOLON",
+    "description": "DÖKÜMLÜ PİLİLİ PANTOLON",
+    "price": 229000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "717",
+        "name": "Çikolata",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 465255778,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "M",
+            "sku": 465255780,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "L",
+            "sku": 465255782,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "XL",
+            "sku": 465255772,
+            "availability": "in_stock",
+            "price": 229000
+          }
+        ]
+      },
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 465255773,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "M",
+            "sku": 465255774,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "L",
+            "sku": 465255775,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "XL",
+            "sku": 465255776,
+            "availability": "in_stock",
+            "price": 229000
+          }
+        ]
+      },
+      {
+        "id": "052",
+        "name": "Açık bej",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 465255777,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "M",
+            "sku": 465255779,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "L",
+            "sku": 465255781,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "XL",
+            "sku": 465255783,
+            "availability": "in_stock",
+            "price": 229000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/bf6d/6ad4/90444dba9f07/fd3265ab17e6/00706662717-p/00706662717-p.jpg?ts=1753874523385&w={width}",
+      "https://static.zara.net/assets/public/57e2/742a/8daa435ab21f/4f73e4ba378d/00706662717-a1/00706662717-a1.jpg?ts=1753874523506&w={width}",
+      "https://static.zara.net/assets/public/be06/fe39/f7c84c4aa0aa/9e35179095e1/00706662717-a2/00706662717-a2.jpg?ts=1753874523482&w={width}",
+      "https://static.zara.net/assets/public/69c2/9f8e/242a4d9e84d2/e49e599b24d6/00706662717-a3/00706662717-a3.jpg?ts=1753874523159&w={width}",
+      "https://static.zara.net/assets/public/d8be/72cc/04034dc8b1c0/8198834c6858/00706662717-a4/00706662717-a4.jpg?ts=1753874523546&w={width}",
+      "https://static.zara.net/assets/public/0298/f5a2/fe1a4da18295/59ca027d09d1/00706662717-a5/00706662717-a5.jpg?ts=1753874523461&w={width}",
+      "https://static.zara.net/assets/public/3142/649c/256b49fb81b5/9fd18cf25c27/00706662717-e1/00706662717-e1.jpg?ts=1753797406865&w={width}",
+      "https://static.zara.net/assets/public/4b13/1f8c/b3214552bc32/b6c693f0174a/00706662717-e2/00706662717-e2.jpg?ts=1753797406626&w={width}",
+      "https://static.zara.net/assets/public/6e89/8e9b/44bd41cd937f/0dea9fdcc470/00706662717-e3/00706662717-e3.jpg?ts=1753797407234&w={width}",
+      "https://static.zara.net/assets/public/f00d/61d9/ef9a4b81b3ca/1d10c6f2e32a/00706662717-e4/00706662717-e4.jpg?ts=1753797407210&w={width}"
+    ]
+  },
+  {
+    "id": "470151268",
+    "name": "RELAXED FİT PAMUKLU - KETEN PANTOLON",
+    "description": "RELAXED FİT PAMUKLU - KETEN PANTOLON",
+    "price": 169000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 452696169,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "M",
+            "sku": 452696170,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "L",
+            "sku": 452696193,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "XL",
+            "sku": 452696195,
+            "availability": "in_stock",
+            "price": 169000
+          }
+        ]
+      },
+      {
+        "id": "052",
+        "name": "Açık bej",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 452696125,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "M",
+            "sku": 452696126,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "L",
+            "sku": 452696186,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "XL",
+            "sku": 452696128,
+            "availability": "in_stock",
+            "price": 169000
+          }
+        ]
+      },
+      {
+        "id": "251",
+        "name": "Kirli-beyaz",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 452696134,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "M",
+            "sku": 452696175,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "L",
+            "sku": 452696176,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "XL",
+            "sku": 452696159,
+            "availability": "in_stock",
+            "price": 169000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/f98e/2d94/ac404ae1b9d7/12f0f03fbaaa/01437450800-p/01437450800-p.jpg?ts=1739793436771&w={width}",
+      "https://static.zara.net/assets/public/1ff1/7ba7/1ffc4530ab05/fe49e8fe37cf/01437450800-a1/01437450800-a1.jpg?ts=1739793435717&w={width}",
+      "https://static.zara.net/assets/public/c4fb/834c/e1394c0a8fb0/5a6947037224/01437450800-a2/01437450800-a2.jpg?ts=1739793436557&w={width}",
+      "https://static.zara.net/assets/public/b0fe/4a9e/0c3846309e95/110523b8793e/01437450800-a3/01437450800-a3.jpg?ts=1739793436702&w={width}",
+      "https://static.zara.net/assets/public/c9c7/abdb/d9844e278a1f/32febf789a0f/01437450800-000-a4/01437450800-000-a4.jpg?ts=1747147620357&w={width}",
+      "https://static.zara.net/assets/public/fde9/4375/5d0e4694a401/89846d14bef6/01437450800-a5/01437450800-a5.jpg?ts=1739793437400&w={width}",
+      "https://static.zara.net/assets/public/8690/6e4e/9c2844388de4/af6fed5d0a12/01437450800-e1/01437450800-e1.jpg?ts=1735818573447&w={width}",
+      "https://static.zara.net/assets/public/0676/7de4/76cb4869a99e/756ca75e65cf/01437450800-e2/01437450800-e2.jpg?ts=1735818572063&w={width}",
+      "https://static.zara.net/assets/public/2a35/a452/a8cf4021b402/271fa42dfe86/01437450800-e3/01437450800-e3.jpg?ts=1735818571630&w={width}",
+      "https://static.zara.net/assets/public/8059/7118/d64147a1a2dd/82441b9f8826/01437450800-e4/01437450800-e4.jpg?ts=1735818573149&w={width}"
+    ]
+  },
+  {
+    "id": "468086239",
+    "name": "STRAIGHT FIT CHINO PANTOLON",
+    "description": "STRAIGHT FIT CHINO PANTOLON",
+    "price": 169000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "EU 38 (US 30)",
+            "sku": 468085823,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "EU 40 (US 31)",
+            "sku": 468085824,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "EU 42 (US 32)",
+            "sku": 468085825,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "EU 44 (US 34)",
+            "sku": 468085826,
+            "availability": "in_stock",
+            "price": 169000
+          },
+          {
+            "name": "EU 46 (US 36)",
+            "sku": 468085827,
+            "availability": "in_stock",
+            "price": 169000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/88a0/aee6/0b8548f3b3b2/3e77fc3664f2/05838859800-p/05838859800-p.jpg?ts=1754050650690&w={width}",
+      "https://static.zara.net/assets/public/baef/429b/6e59428293b9/aa99998cf155/05838859800-a1/05838859800-a1.jpg?ts=1754050648788&w={width}",
+      "https://static.zara.net/assets/public/8b8e/53f4/5ebc4ef5b88e/1321e44fceeb/05838859800-a2/05838859800-a2.jpg?ts=1754050648420&w={width}",
+      "https://static.zara.net/assets/public/7549/2740/502d4dc297ab/e695b11e30e2/05838859800-a3/05838859800-a3.jpg?ts=1754050649796&w={width}",
+      "https://static.zara.net/assets/public/5f59/b33b/f4194547b9e5/fefd614b1198/05838859800-a4/05838859800-a4.jpg?ts=1754050650707&w={width}",
+      "https://static.zara.net/assets/public/df19/868c/0cad4f919fd1/ff0970bfb766/05838859800-a5/05838859800-a5.jpg?ts=1754050650705&w={width}",
+      "https://static.zara.net/assets/public/5605/0785/210f46b7871c/f1044dc6a0c1/05838859800-e1/05838859800-e1.jpg?ts=1754046563197&w={width}",
+      "https://static.zara.net/assets/public/15f6/62e4/7b454dffa4c1/680aa677e2c7/05838859800-e2/05838859800-e2.jpg?ts=1754046564974&w={width}",
+      "https://static.zara.net/assets/public/360f/e037/02ac444a87fb/26f82b2a583d/05838859800-e3/05838859800-e3.jpg?ts=1754046563324&w={width}",
+      "https://static.zara.net/assets/public/e18d/d7bf/ca3a41af9ab1/05982fe63958/05838859800-e4/05838859800-e4.jpg?ts=1754046562761&w={width}"
+    ]
+  },
+  {
+    "id": "455262122",
+    "name": "DÖKÜMLÜ TAKIM PANTOLONU",
+    "description": "DÖKÜMLÜ TAKIM PANTOLONU",
+    "price": 229000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "EU 36 (US 29)",
+            "sku": 455258150,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "EU 38 (US 30)",
+            "sku": 455258151,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "EU 40 (US 31)",
+            "sku": 455258152,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "EU 42 (US 32)",
+            "sku": 455258153,
+            "availability": "in_stock",
+            "price": 229000
+          },
+          {
+            "name": "EU 44 (US 34)",
+            "sku": 455258154,
+            "availability": "in_stock",
+            "price": 229000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/6a0d/ecc0/ebbe4c6fbf17/f958f561b1bf/05644063800-p/05644063800-p.jpg?ts=1753721682566&w={width}",
+      "https://static.zara.net/assets/public/2190/8a95/7e1a4781b7ff/7c330679167a/05644063800-a1/05644063800-a1.jpg?ts=1753721682679&w={width}",
+      "https://static.zara.net/assets/public/ebb5/4df2/cc6844e9a181/1e1b0ce88bca/05644063800-a2/05644063800-a2.jpg?ts=1753721682704&w={width}",
+      "https://static.zara.net/assets/public/b67a/b737/ac5a40c9a027/e8ffb4b90dae/05643063800-a3/05643063800-a3.jpg?ts=1753809088948&w={width}",
+      "https://static.zara.net/assets/public/e141/b26d/53144a529451/f3e87ab571f2/05644063800-a4/05644063800-a4.jpg?ts=1753721682792&w={width}",
+      "https://static.zara.net/assets/public/c1a9/08a2/0b9d483abd00/e5eeaa7eef4a/05644063800-e1/05644063800-e1.jpg?ts=1753719397165&w={width}",
+      "https://static.zara.net/assets/public/75e2/b1de/6ac347b1a6de/d93ab0035f2b/05644063800-e2/05644063800-e2.jpg?ts=1753719396845&w={width}",
+      "https://static.zara.net/assets/public/4b2f/a911/ca02425ca4e8/23dcd75268af/05644063800-e3/05644063800-e3.jpg?ts=1753719399947&w={width}",
+      "https://static.zara.net/assets/public/0427/9248/36fc40fda3c4/1d772f375de3/05644063800-e4/05644063800-e4.jpg?ts=1753719399699&w={width}"
+    ]
+  },
+  {
+    "id": "463515966",
+    "name": "GENİŞ PAÇA JOGGER PANTOLON",
+    "description": "GENİŞ PAÇA JOGGER PANTOLON",
+    "price": 149000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 456202301,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "M",
+            "sku": 456202302,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "L",
+            "sku": 456202303,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "XL",
+            "sku": 456202305,
+            "availability": "in_stock",
+            "price": 149000
+          }
+        ]
+      },
+      {
+        "id": "807",
+        "name": "Antrasit grisi",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 456202304,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "M",
+            "sku": 456202306,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "L",
+            "sku": 456202307,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "XL",
+            "sku": 456202308,
+            "availability": "in_stock",
+            "price": 149000
+          }
+        ]
+      },
+      {
+        "id": "803",
+        "name": "Gri marn",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 456202293,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "M",
+            "sku": 456202294,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "L",
+            "sku": 456202295,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "XL",
+            "sku": 456202296,
+            "availability": "in_stock",
+            "price": 149000
+          }
+        ]
+      },
+      {
+        "id": "804",
+        "name": "İnci grisi",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 457806349,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "M",
+            "sku": 457806351,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "L",
+            "sku": 457806352,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "XL",
+            "sku": 457806353,
+            "availability": "in_stock",
+            "price": 149000
+          }
+        ]
+      },
+      {
+        "id": "251",
+        "name": "Kirli-beyaz",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 457092917,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "M",
+            "sku": 457092919,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "L",
+            "sku": 457092921,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "XL",
+            "sku": 457092922,
+            "availability": "in_stock",
+            "price": 149000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/0927/16e4/963b4758b919/1de6c37d9d26/00761440800-p/00761440800-p.jpg?ts=1751441515800&w={width}",
+      "https://static.zara.net/assets/public/97c3/baf5/30fb4fd58d04/ae89594571af/00761440800-a1/00761440800-a1.jpg?ts=1751441515698&w={width}",
+      "https://static.zara.net/assets/public/9ada/550f/550a458b94bd/f88c8feb3e84/00761440800-a2/00761440800-a2.jpg?ts=1751441516042&w={width}",
+      "https://static.zara.net/assets/public/b743/4cd4/a9ce4097935c/b2274c5bfe7c/00761440800-a3/00761440800-a3.jpg?ts=1751441515936&w={width}",
+      "https://static.zara.net/assets/public/3085/8541/eb23435dbc1b/419b9c17b355/00761440800-a4/00761440800-a4.jpg?ts=1751441516039&w={width}",
+      "https://static.zara.net/assets/public/6400/ee15/d8294a0ca33e/14e2b9025d73/00761371800-000-e1/00761371800-000-e1.jpg?ts=1754321616747&w={width}",
+      "https://static.zara.net/assets/public/4095/9770/82b54faa9414/99c6af068810/00761440800-e2/00761440800-e2.jpg?ts=1743094098472&w={width}",
+      "https://static.zara.net/assets/public/6bc4/c6eb/e4e54f70baff/8da820a3847a/00761372800-e3/00761372800-e3.jpg?ts=1754034097066&w={width}",
+      "https://static.zara.net/assets/public/8280/6864/832e4e0d96de/7797d70e629e/00761372800-e4/00761372800-e4.jpg?ts=1754034096196&w={width}"
+    ]
+  },
+  {
+    "id": "452708186",
+    "name": "KETENLİ BERMUDA",
+    "description": "KETENLİ BERMUDA",
+    "price": 149000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "250",
+        "name": "Beyaz",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 452705699,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "M",
+            "sku": 452705700,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "L",
+            "sku": 452705701,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "XL",
+            "sku": 452705702,
+            "availability": "in_stock",
+            "price": 149000
+          }
+        ]
+      },
+      {
+        "id": "052",
+        "name": "Açık bej",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 452705711,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "M",
+            "sku": 452705712,
+            "availability": "out_of_stock",
+            "price": 149000
+          },
+          {
+            "name": "L",
+            "sku": 452705713,
+            "availability": "out_of_stock",
+            "price": 149000
+          },
+          {
+            "name": "XL",
+            "sku": 452705714,
+            "availability": "in_stock",
+            "price": 149000
+          }
+        ]
+      },
+      {
+        "id": "500",
+        "name": "Yeşil",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 452705703,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "M",
+            "sku": 452705704,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "L",
+            "sku": 452705705,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "XL",
+            "sku": 452705706,
+            "availability": "in_stock",
+            "price": 149000
+          }
+        ]
+      },
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "S",
+            "sku": 452705707,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "M",
+            "sku": 452705708,
+            "availability": "in_stock",
+            "price": 149000
+          },
+          {
+            "name": "L",
+            "sku": 452705709,
+            "availability": "out_of_stock",
+            "price": 149000
+          },
+          {
+            "name": "XL",
+            "sku": 452705710,
+            "availability": "in_stock",
+            "price": 149000
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.zara.net/assets/public/408f/5e46/82d14355bb36/5018597ca404/04302301250-p/04302301250-p.jpg?ts=1754393574087&w={width}",
+      "https://static.zara.net/assets/public/86d0/e774/eb074efda0e6/318bd61adcd0/04302301250-a1/04302301250-a1.jpg?ts=1754393574285&w={width}",
+      "https://static.zara.net/assets/public/0ffe/85ad/283441be8cec/b47eaf52e652/04302301250-a2/04302301250-a2.jpg?ts=1754393574420&w={width}",
+      "https://static.zara.net/assets/public/a12a/3bee/a3a6404189bd/85e9ec113580/04302301250-a3/04302301250-a3.jpg?ts=1754393574368&w={width}",
+      "https://static.zara.net/assets/public/b4a2/33aa/0b2f41f68930/07bcef0fe0b7/04302301250-a4/04302301250-a4.jpg?ts=1754393574063&w={width}",
+      "https://static.zara.net/assets/public/50ee/5ed4/7d5a4df6b815/c00a1761320c/04302301250-a5/04302301250-a5.jpg?ts=1754393574106&w={width}",
+      "https://static.zara.net/assets/public/24aa/2fad/7f504705aa27/52bbb21f5a69/04302301250-e1/04302301250-e1.jpg?ts=1745585776717&w={width}",
+      "https://static.zara.net/assets/public/c1d0/59bd/1eb04332b39a/422ff388fe6b/04302301250-e2/04302301250-e2.jpg?ts=1745585776932&w={width}",
+      "https://static.zara.net/assets/public/92d3/803f/9bca4440a8e9/1c023bcefa07/04302301250-e3/04302301250-e3.jpg?ts=1745585776905&w={width}",
+      "https://static.zara.net/assets/public/2bac/55f9/b7e1486aa3d7/b99b0031ff24/04302301250-e4/04302301250-e4.jpg?ts=1745585776822&w={width}"
+    ]
+  },
+  {
+    "id": "698625044",
+    "name": "Uzun süper bol tulum",
+    "description": "Uzun süper bol tulum",
+    "price": 209000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "700",
+        "name": "Kahverengi",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 698620509,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "S",
+            "sku": 698620507,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "M",
+            "sku": 698620508,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "L",
+            "sku": 698620505,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "XL",
+            "sku": 698620506,
+            "availability": "N/A",
+            "price": "209000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/3c35/324c/8150409f9867/086e5f8123aa/07638307700-A8M/07638307700-A8M.jpg?ts=1753179563172&w=:width:",
+      "https://static.pullandbear.net/assets/public/cf7d/ed1a/9f144533ae4b/0ad85d69a484/07638307700-A6M/07638307700-A6M.jpg?ts=1753179566022&w=:width:",
+      "https://static.pullandbear.net/assets/public/d346/660e/31e444e7b80e/4b83e3348ea4/07638307700-Z/07638307700-Z.jpg?ts=1753179568550&w=:width:",
+      "https://static.pullandbear.net/assets/public/8bf7/247c/7d31410284da/5b389d7797c1/07638307700-C/07638307700-C.jpg?ts=1753179579208&w=:width:",
+      "https://static.pullandbear.net/assets/public/9dd2/ace7/e033424b9778/0beeba0b889d/07638307700-K2/07638307700-K2.jpg?ts=1753888305034&w=:width:",
+      "https://static.pullandbear.net/assets/public/67bb/75b5/952e439ca54a/16f86f09ab49/07638307700-K1/07638307700-K1.jpg?ts=1753888305765&w=:width:",
+      "https://static.pullandbear.net/assets/public/637f/5601/b9b444299c0f/df8db32358d0/07638307700-K3/07638307700-K3.jpg?ts=1753888306025&w=:width:",
+      "https://static.pullandbear.net/assets/public/0c54/e10d/df2f44da95d7/8d69d3f1c5b8/07638307700-k4/07638307700-k4.jpg?ts=1753972246036&w=:width:",
+      "https://static.pullandbear.net/assets/public/61f0/b5d1/f30f437285d9/407a250e0924/07638307700-A7M/07638307700-A7M.jpg?ts=1753978905788&w=:width:",
+      "https://static.pullandbear.net/assets/public/42fa/85d5/c5d34a7790f0/9e17bb3a69c0/07638307700-D2/07638307700-D2.jpg?ts=1753978905777&w=:width:"
+    ]
+  },
+  {
+    "id": "692156810",
+    "name": "Paça detaylı, düz kesim, bol kesim jean",
+    "description": "Paça detaylı, düz kesim, bol kesim jean",
+    "price": 169000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "427",
+        "name": "Orta mavi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 692152466,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "34",
+            "sku": 692152482,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "36",
+            "sku": 692152479,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "38",
+            "sku": 692152477,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "40",
+            "sku": 692152475,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "42",
+            "sku": 692152487,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "44",
+            "sku": 692152486,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "46",
+            "sku": 692152485,
+            "availability": "N/A",
+            "price": "169000"
+          }
+        ]
+      },
+      {
+        "id": "712",
+        "name": "Ekru",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 692152473,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "34",
+            "sku": 692152471,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "36",
+            "sku": 692152469,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "38",
+            "sku": 692152467,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "40",
+            "sku": 692152483,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "42",
+            "sku": 692152480,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "44",
+            "sku": 692152478,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "46",
+            "sku": 692152476,
+            "availability": "N/A",
+            "price": "169000"
+          }
+        ]
+      },
+      {
+        "id": "802",
+        "name": "Gri",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 692152491,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "34",
+            "sku": 692152490,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "36",
+            "sku": 692152489,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "38",
+            "sku": 692152488,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "40",
+            "sku": 692152495,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "42",
+            "sku": 692152494,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "44",
+            "sku": 692152493,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "46",
+            "sku": 692152492,
+            "availability": "N/A",
+            "price": "169000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/056b/e604/14ea4159af3f/c1799f6783fc/03681314712-A8M/03681314712-A8M.jpg?ts=1740054055937&w=:width:",
+      "https://static.pullandbear.net/assets/public/aaf1/e5f9/821444ca9262/1155483ace30/03681314712-A20M/03681314712-A20M.jpg?ts=1740054056034&w=:width:",
+      "https://static.pullandbear.net/assets/public/fd60/2c68/e530482681e4/99020165a11b/03681314712-A6M/03681314712-A6M.jpg?ts=1740562323983&w=:width:",
+      "https://static.pullandbear.net/assets/public/0cdc/3f10/36c0435fbd6d/9f8792929c49/03681314712-C/03681314712-C.jpg?ts=1740054055976&w=:width:",
+      "https://static.pullandbear.net/assets/public/eb81/7ab2/64ab494a8c39/f047d1300201/03687310712-A4M/03687310712-A4M.jpg?ts=1751444751257&w=:width:",
+      "https://static.pullandbear.net/assets/public/663b/67b6/85484d2daa5d/a5b5d18ee501/03687310712-A2M/03687310712-A2M.jpg?ts=1751444751199&w=:width:",
+      "https://static.pullandbear.net/assets/public/a8bb/dfe2/7d0b42c9ac65/9e45d16d451a/03687310712-M/03687310712-M.jpg?ts=1751444751694&w=:width:",
+      "https://static.pullandbear.net/assets/public/2514/90ef/65994e7b89e4/885a8b7571c4/COLOR_712/COLOR_712.jpg?ts=1741606836986&w=:width:",
+      "https://static.pullandbear.net/assets/public/0795/936e/9fa74868ae43/35d96306279e/03687310712-A3M/03687310712-A3M.jpg?ts=1751444751518&w=:width:",
+      "https://static.pullandbear.net/assets/public/4b80/ceb6/ffdf44389416/fd0689796a55/03687310712-A5M/03687310712-A5M.jpg?ts=1751467640792&w=:width:"
+    ]
+  },
+  {
+    "id": "694018001",
+    "name": "Dikişli bol kesim jean",
+    "description": "Dikişli bol kesim jean",
+    "price": 209000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "406",
+        "name": "Açık mavi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 694016922,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "34",
+            "sku": 694016921,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "36",
+            "sku": 694016928,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "38",
+            "sku": 694016927,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "40",
+            "sku": 694016926,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "42",
+            "sku": 694016925,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "44",
+            "sku": 694016924,
+            "availability": "N/A",
+            "price": "209000"
+          },
+          {
+            "name": "46",
+            "sku": 694016923,
+            "availability": "N/A",
+            "price": "209000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/0198/fa48/d68848608b68/a31d3edb3e9b/07687316406-M/07687316406-M.jpg?ts=1752677996306&w=:width:",
+      "https://static.pullandbear.net/assets/public/abf8/09af/f09c4bf79682/f2e5be441bbc/07687316406-A2M/07687316406-A2M.jpg?ts=1752677994992&w=:width:",
+      "https://static.pullandbear.net/assets/public/4448/1bf8/bff641d2b8b5/5cd688f2bae8/07687316406-A3M/07687316406-A3M.jpg?ts=1752760795302&w=:width:",
+      "https://static.pullandbear.net/assets/public/4e68/5145/ec8845c3ae27/cfa5e81c5d74/07687316406-A4M/07687316406-A4M.jpg?ts=1752677995687&w=:width:",
+      "https://static.pullandbear.net/assets/public/6ead/a958/62b945b5b119/8e5dfedd0943/07687316406-A5M/07687316406-A5M.jpg?ts=1752677995850&w=:width:",
+      "https://static.pullandbear.net/assets/public/bd90/6ca9/ea024820b533/ad42ab31bba7/07687316406-A6M/07687316406-A6M.jpg?ts=1750778585499&w=:width:",
+      "https://static.pullandbear.net/assets/public/eb89/ca73/780e4fa0bc6d/b4a1f4b58541/07687316406-A20M/07687316406-A20M.jpg?ts=1750778598474&w=:width:",
+      "https://static.pullandbear.net/assets/public/1521/86e7/ba6a44098d5d/c7e3a8ce5cc1/07687316406-A8M/07687316406-A8M.jpg?ts=1750778602810&w=:width:",
+      "https://static.pullandbear.net/assets/public/c64b/f31e/982341c5bcd8/c3e05365e631/COLOR_406/COLOR_406.jpg?ts=1741606750948&w=:width:",
+      "https://static.pullandbear.net/assets/public/d841/bdbc/b8f54437bccf/473a172adc43/07687316406-C/07687316406-C.jpg?ts=1750778611478&w=:width:"
+    ]
+  },
+  {
+    "id": "692157260",
+    "name": "Kemerli süper geniş paça jean",
+    "description": "Kemerli süper geniş paça jean",
+    "price": 229000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "406",
+        "name": "Açık mavi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 692154906,
+            "availability": "N/A",
+            "price": "229000"
+          },
+          {
+            "name": "34",
+            "sku": 692154905,
+            "availability": "N/A",
+            "price": "229000"
+          },
+          {
+            "name": "36",
+            "sku": 692154912,
+            "availability": "N/A",
+            "price": "229000"
+          },
+          {
+            "name": "38",
+            "sku": 692154911,
+            "availability": "N/A",
+            "price": "229000"
+          },
+          {
+            "name": "40",
+            "sku": 692154910,
+            "availability": "N/A",
+            "price": "229000"
+          },
+          {
+            "name": "42",
+            "sku": 692154909,
+            "availability": "N/A",
+            "price": "229000"
+          },
+          {
+            "name": "44",
+            "sku": 692154908,
+            "availability": "N/A",
+            "price": "229000"
+          },
+          {
+            "name": "46",
+            "sku": 692154907,
+            "availability": "N/A",
+            "price": "229000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/7813/c788/62cd4c9ba90d/b00560ab21d1/07683314406-A6M/07683314406-A6M.jpg?ts=1749653278570&w=:width:",
+      "https://static.pullandbear.net/assets/public/6d3d/10c6/b8774d79a4a5/24cbd31be8be/07683314406-A2M/07683314406-A2M.jpg?ts=1752144298519&w=:width:",
+      "https://static.pullandbear.net/assets/public/f12d/5820/c2044e639418/735decf38d4e/07683314406-M/07683314406-M.jpg?ts=1752144298139&w=:width:",
+      "https://static.pullandbear.net/assets/public/a266/909c/227346ac9469/6771b9fedce8/0768331440600-A7M/0768331440600-A7M.jpg?ts=1752159439150&w=:width:",
+      "https://static.pullandbear.net/assets/public/2b6d/29a6/84f3439a9e34/d14530a893b9/07683314406-A20M/07683314406-A20M.jpg?ts=1749653307667&w=:width:",
+      "https://static.pullandbear.net/assets/public/a365/66b1/b3b9475eb8a5/16812fbc3cad/07683314406-A8M/07683314406-A8M.jpg?ts=1749653313188&w=:width:",
+      "https://static.pullandbear.net/assets/public/40d9/f46f/6fb940cba055/b0ba070981a2/07683314406-A5M/07683314406-A5M.jpg?ts=1752144298573&w=:width:",
+      "https://static.pullandbear.net/assets/public/b08f/ba16/941841a5bd9c/4c42a1e4087a/07683314406-A4M/07683314406-A4M.jpg?ts=1752144298046&w=:width:",
+      "https://static.pullandbear.net/assets/public/3452/daf1/a46f484d9bbe/98e2ae68f3f6/07683314406-A3M/07683314406-A3M.jpg?ts=1752144298940&w=:width:",
+      "https://static.pullandbear.net/assets/public/6edd/46d5/08434f98bc52/96e289bd17c8/07683314406-C/07683314406-C.jpg?ts=1749653323754&w=:width:"
+    ]
+  },
+  {
+    "id": "693167259",
+    "name": "Yüksek bel mom fit jean",
+    "description": "Yüksek bel mom fit jean",
+    "price": 139000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "711",
+        "name": "Kum rengi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 693160386,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160454,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160528,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160385,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160455,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160526,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160384,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160452,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160524,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160399,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160453,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160536,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160396,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160470,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160535,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160393,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160472,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160533,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160390,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160466,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160531,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160407,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160464,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160541,
+            "availability": "N/A",
+            "price": "139000"
+          }
+        ]
+      },
+      {
+        "id": "400",
+        "name": "Mavi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 693160383,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160469,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160478,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160398,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160471,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160486,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160395,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160465,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160485,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160392,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160468,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160484,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160389,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160461,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160481,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160406,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160463,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160497,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160404,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160458,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160494,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160402,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160476,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160491,
+            "availability": "N/A",
+            "price": "139000"
+          }
+        ]
+      },
+      {
+        "id": "401",
+        "name": "Lacivert",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 693160411,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160415,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160482,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160410,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160413,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160479,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160409,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160414,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160495,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160351,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160419,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160492,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160350,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160420,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160489,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160349,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160417,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160487,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160348,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160418,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160500,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160352,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160416,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160498,
+            "availability": "N/A",
+            "price": "139000"
+          }
+        ]
+      },
+      {
+        "id": "406",
+        "name": "Açık mavi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 693160354,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160421,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160504,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160353,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160422,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160503,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160363,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160431,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160509,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160361,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160432,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160508,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160358,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160429,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160507,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160355,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160430,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160506,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160373,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160427,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160516,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160370,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160426,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160514,
+            "availability": "N/A",
+            "price": "139000"
+          }
+        ]
+      },
+      {
+        "id": "407",
+        "name": "Koyu mavi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 693160400,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160467,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160534,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160397,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160460,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160532,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160394,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160462,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160530,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160391,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160457,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160540,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160408,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160459,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160539,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160405,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160474,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160538,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160403,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160475,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160537,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160401,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160473,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160542,
+            "availability": "N/A",
+            "price": "139000"
+          }
+        ]
+      },
+      {
+        "id": "427",
+        "name": "Orta mavi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 693160359,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160424,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160505,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160356,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160441,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160515,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160374,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160443,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160513,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160371,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160437,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160512,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160368,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160439,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160511,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160365,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160435,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160523,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160381,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160436,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160521,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160379,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160450,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160519,
+            "availability": "N/A",
+            "price": "139000"
+          }
+        ]
+      },
+      {
+        "id": "700",
+        "name": "Kahverengi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 693160362,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160428,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "32",
+            "sku": 693160483,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160360,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160423,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "34",
+            "sku": 693160480,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160357,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160425,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "36",
+            "sku": 693160496,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160375,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160442,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "38",
+            "sku": 693160493,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160372,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160444,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "40",
+            "sku": 693160490,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160369,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160438,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "42",
+            "sku": 693160488,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160366,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160440,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "44",
+            "sku": 693160501,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160382,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160433,
+            "availability": "N/A",
+            "price": "139000"
+          },
+          {
+            "name": "46",
+            "sku": 693160499,
+            "availability": "N/A",
+            "price": "139000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/8d6a/29af/815f474597c0/ff0f0b404db5/07687402407-A6M/07687402407-A6M.jpg?ts=1750173525830&w=:width:",
+      "https://static.pullandbear.net/assets/public/dace/720f/866c4c3e8cf8/c42665c6e580/07687305407-A10M/07687305407-A10M.jpg?ts=1753284998726&w=:width:",
+      "https://static.pullandbear.net/assets/public/44c0/b9c3/a77d4f96bddf/26fc07a29bda/07687402407-A20M/07687402407-A20M.jpg?ts=1750173526940&w=:width:",
+      "https://static.pullandbear.net/assets/public/d378/808f/f0804fa79d86/ea3750899bbf/07687402407-A8M/07687402407-A8M.jpg?ts=1750173517956&w=:width:",
+      "https://static.pullandbear.net/assets/public/3271/18ae/85584cebb3e7/7b79c330f36a/07687402407-C/07687402407-C.jpg?ts=1750173516040&w=:width:",
+      "https://static.pullandbear.net/assets/public/4c7a/d91e/3c5f483f8198/c8cc5b12dd46/07687402407-Z/07687402407-Z.jpg?ts=1750173528067&w=:width:",
+      "https://static.pullandbear.net/assets/public/bde6/6a3d/a3074b26be64/220f0d932d3c/07687305407-K4/07687305407-K4.jpg?ts=1753886892736&w=:width:",
+      "https://static.pullandbear.net/assets/public/1e6f/5009/7e8647fa89b0/89db4339061d/07687305407-K3/07687305407-K3.jpg?ts=1753886892938&w=:width:",
+      "https://static.pullandbear.net/assets/public/335d/fb54/6f6d43868359/35e3fbf46b00/07687305407-K1/07687305407-K1.jpg?ts=1753886893404&w=:width:",
+      "https://static.pullandbear.net/assets/public/0926/43cd/826e400d958e/a8802b09da01/07687305407-K5/07687305407-K5.jpg?ts=1753886893661&w=:width:"
+    ]
+  },
+  {
+    "id": "699323617",
+    "name": "Bağcıklı bol kesim pantolon",
+    "description": "Bağcıklı bol kesim pantolon",
+    "price": 169000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "700",
+        "name": "Kahverengi",
+        "sizes": [
+          {
+            "name": "32",
+            "sku": 699317950,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "34",
+            "sku": 699317949,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "36",
+            "sku": 699317948,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "38",
+            "sku": 699317947,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "40",
+            "sku": 699317946,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "42",
+            "sku": 699317945,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "44",
+            "sku": 699317952,
+            "availability": "N/A",
+            "price": "169000"
+          },
+          {
+            "name": "46",
+            "sku": 699317951,
+            "availability": "N/A",
+            "price": "169000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/fa09/9aaf/73364bed9d50/a7bdb8a5f62a/07675388700-A6M/07675388700-A6M.jpg?ts=1753182095391&w=:width:",
+      "https://static.pullandbear.net/assets/public/1755/1575/aa174f98afc2/9eecef650a1b/07675388700-A20M/07675388700-A20M.jpg?ts=1753182097462&w=:width:",
+      "https://static.pullandbear.net/assets/public/681c/9757/ad6f428d9379/d066c6f5a061/07675388700-A8M/07675388700-A8M.jpg?ts=1753182098271&w=:width:",
+      "https://static.pullandbear.net/assets/public/0ca8/053d/ebdb41b7aa87/661049534f46/07675388700-Z/07675388700-Z.jpg?ts=1753182115845&w=:width:",
+      "https://static.pullandbear.net/assets/public/fefe/c093/75624ef9b6db/9df33a634659/07675388700-C/07675388700-C.jpg?ts=1753182117193&w=:width:",
+      "https://static.pullandbear.net/assets/public/1171/fd4f/a5114a1b86dd/8f2f5f492f3f/07675388700-K2/07675388700-K2.jpg?ts=1753888311763&w=:width:",
+      "https://static.pullandbear.net/assets/public/6849/b024/51994c13bc88/770ff4554d8b/07675388700-K1/07675388700-K1.jpg?ts=1753888314282&w=:width:",
+      "https://static.pullandbear.net/assets/public/5bcd/ba90/682b4c1c9b4f/787a02477023/07675388700-K3/07675388700-K3.jpg?ts=1753888313798&w=:width:",
+      "https://static.pullandbear.net/assets/public/1cb3/415e/8e764d719a84/915ca99c594d/07675388700-A7M/07675388700-A7M.jpg?ts=1753965638515&w=:width:",
+      "https://static.pullandbear.net/assets/public/383d/19cb/14ef44109978/b8d1b6018f78/07675388700-k4/07675388700-k4.jpg?ts=1753972247954&w=:width:"
+    ]
+  },
+  {
+    "id": "699518151",
+    "name": "Boxy STWD Tişört",
+    "description": "Boxy STWD Tişört",
+    "price": 109000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "427",
+        "name": "Orta mavi",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 699511754,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "S",
+            "sku": 699511751,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "M",
+            "sku": 699511753,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "L",
+            "sku": 699511748,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "XL",
+            "sku": 699511750,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "XXL",
+            "sku": 699511757,
+            "availability": "N/A",
+            "price": "109000"
+          }
+        ]
+      },
+      {
+        "id": "250",
+        "name": "Beyaz",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 697460458,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "S",
+            "sku": 697460459,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "M",
+            "sku": 697460455,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "L",
+            "sku": 697460457,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "XL",
+            "sku": 697460452,
+            "availability": "N/A",
+            "price": "109000"
+          }
+        ]
+      },
+      {
+        "id": "400",
+        "name": "Mavi",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 697460454,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "S",
+            "sku": 697460456,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "M",
+            "sku": 697460451,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "L",
+            "sku": 697460453,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "XL",
+            "sku": 697460460,
+            "availability": "N/A",
+            "price": "109000"
+          }
+        ]
+      },
+      {
+        "id": "500",
+        "name": "Yeşil",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 699511752,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "S",
+            "sku": 699511747,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "M",
+            "sku": 699511749,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "L",
+            "sku": 699511756,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "XL",
+            "sku": 699511758,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "XXL",
+            "sku": 699511755,
+            "availability": "N/A",
+            "price": "109000"
+          }
+        ]
+      },
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 697460467,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "S",
+            "sku": 697460465,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "M",
+            "sku": 697460466,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "L",
+            "sku": 697460462,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "XL",
+            "sku": 697460464,
+            "availability": "N/A",
+            "price": "109000"
+          }
+        ]
+      },
+      {
+        "id": "807",
+        "name": "Antrasit gri",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 697460461,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "S",
+            "sku": 697460463,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "M",
+            "sku": 697460449,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "L",
+            "sku": 697460450,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "XL",
+            "sku": 697460448,
+            "availability": "N/A",
+            "price": "109000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/8208/79eb/06104e04a9f8/118766c83c75/07152529800-A6M/07152529800-A6M.jpg?ts=1751272377157&w=:width:",
+      "https://static.pullandbear.net/assets/public/5594/db70/485644c79154/fe0a6a9c3e06/07152529800-A20M/07152529800-A20M.jpg?ts=1751272384938&w=:width:",
+      "https://static.pullandbear.net/assets/public/6ddc/9e38/241b48b0b940/004094ac0319/07152529800-C/07152529800-C.jpg?ts=1751272388242&w=:width:",
+      "https://static.pullandbear.net/assets/public/d393/c885/5c8349f3a0dc/9b9e1b953e15/07152529800-Z/07152529800-Z.jpg?ts=1751272397064&w=:width:",
+      "https://static.pullandbear.net/assets/public/78a0/3997/51324d239516/5a5bbab58779/07152529800-A8M/07152529800-A8M.jpg?ts=1751279333306&w=:width:",
+      "https://static.pullandbear.net/assets/public/b9c5/dff8/ca044a8ba3b2/88a102397512/07152529800-M/07152529800-M.jpg?ts=1751876599134&w=:width:",
+      "https://static.pullandbear.net/assets/public/3ba7/6a5b/08b24267acb4/d97ad9b4dcfc/COLOR_800/COLOR_800.jpg?ts=1741606853179&w=:width:",
+      "https://static.pullandbear.net/assets/public/dcb0/6ad9/77c24b568f77/6717a01b0fa0/0715252980000-E/0715252980000-E.jpg?ts=1751884572482&w=:width:",
+      "https://static.pullandbear.net/assets/public/fe71/11ef/7786415ab709/d454ae64cd22/0715252980000-A7M/0715252980000-A7M.jpg?ts=1751884572427&w=:width:",
+      "https://static.pullandbear.net/assets/public/c7fe/5fb3/d9754ac6ad98/a0faae4204fe/07152529800-A5M/07152529800-A5M.jpg?ts=1754295599090&w=:width:"
+    ]
+  },
+  {
+    "id": "697013457",
+    "name": "Hokey tişörtü STWD 91",
+    "description": "Hokey tişörtü STWD 91",
+    "price": 119000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "251",
+        "name": "Kırık beyaz",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 697003895,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 697003893,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 697003894,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 697003891,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 697003892,
+            "availability": "N/A",
+            "price": "119000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/7678/2022/973549a3910f/a3f0d4dbcd48/07152511251-A20M/07152511251-A20M.jpg?ts=1752680114341&w=:width:",
+      "https://static.pullandbear.net/assets/public/7cab/51ed/45144d2e9c50/a77ca2be0309/07152511251-A6M/07152511251-A6M.jpg?ts=1752680116903&w=:width:",
+      "https://static.pullandbear.net/assets/public/ed4f/deef/13324277957c/91d43462d36f/07152511251-A8M/07152511251-A8M.jpg?ts=1752680118579&w=:width:",
+      "https://static.pullandbear.net/assets/public/9ede/c01e/4c2a472fbb4d/905ae7733dca/07152511251-Z/07152511251-Z.jpg?ts=1752680121407&w=:width:",
+      "https://static.pullandbear.net/assets/public/8b4d/d553/ce42478f8971/1784ec0eaec7/07152511251-C/07152511251-C.jpg?ts=1752680124774&w=:width:",
+      "https://static.pullandbear.net/assets/public/5ce0/6040/a66940b98170/028cd9689423/0715251125100-A7M/0715251125100-A7M.jpg?ts=1753772517851&w=:width:",
+      "https://static.pullandbear.net/assets/public/f601/5d04/a3224097a9ce/ed2aa42242fd/0715251125100-E/0715251125100-E.jpg?ts=1753772517524&w=:width:",
+      "https://static.pullandbear.net/assets/public/74c2/6743/364c4e08b326/c7ab69fdc7aa/07152511251-M/07152511251-M.jpg?ts=1754295420094&w=:width:",
+      "https://static.pullandbear.net/assets/public/a86e/4834/75c04f88830b/b617a64d917f/COLOR_251/COLOR_251.jpg?ts=1741606738710&w=:width:",
+      "https://static.pullandbear.net/assets/public/f9f2/515c/a39341078f59/95309eac72fd/07152511251-K4/07152511251-K4.jpg?ts=1754295420449&w=:width:"
+    ]
+  },
+  {
+    "id": "692157330",
+    "name": "Basic bermuda ve t-shirt paketi",
+    "description": "Basic bermuda ve t-shirt paketi",
+    "price": 119000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "807",
+        "name": "Antrasit gri",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 692155320,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XS",
+            "sku": 692155350,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155322,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155352,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155329,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155359,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155330,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155361,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155326,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155357,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155327,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155358,
+            "availability": "N/A",
+            "price": "119000"
+          }
+        ]
+      },
+      {
+        "id": "401",
+        "name": "Lacivert",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 692155318,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XS",
+            "sku": 692155349,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155316,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155347,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155317,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155348,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155314,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155345,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155315,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155346,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155313,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155344,
+            "availability": "N/A",
+            "price": "119000"
+          }
+        ]
+      },
+      {
+        "id": "711",
+        "name": "Kum rengi",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 692155335,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XS",
+            "sku": 692155366,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155336,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155367,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155333,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155364,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155334,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155365,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155331,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155362,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155332,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155363,
+            "availability": "N/A",
+            "price": "119000"
+          }
+        ]
+      },
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 692155325,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XS",
+            "sku": 692155356,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155323,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155354,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155324,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155355,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155319,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155351,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155321,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155353,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155328,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155360,
+            "availability": "N/A",
+            "price": "119000"
+          }
+        ]
+      },
+      {
+        "id": "803",
+        "name": "Gri melanj",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 692155311,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XS",
+            "sku": 692155342,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155312,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 692155343,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155309,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 692155340,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155310,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 692155341,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155307,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 692155338,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155308,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XXL",
+            "sku": 692155339,
+            "availability": "N/A",
+            "price": "119000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net//2024/I/0/2/p/3241/999/401/3241999401_2_6_0.jpg?imwidth=:width:&ts=1718092500784",
+      "https://static.pullandbear.net//2024/I/0/2/p/3241/999/401/3241999401_2_8_0.jpg?imwidth=:width:&ts=1718092505941",
+      "https://static.pullandbear.net//2024/I/0/2/p/3241/999/401/3241999401_1_1_0.jpg?imwidth=:width:&ts=1718092497104",
+      "https://static.pullandbear.net//2024/I/0/2/p/3241/999/401/3241999401_2_19_0.jpg?imwidth=:width:&ts=1723625715046",
+      "https://static.pullandbear.net/assets/public/4246/cd5e/3343463aa6a7/6e930363ab6c/03241999401-A2M/03241999401-A2M.jpg?ts=1738850713893&w=:width:",
+      "https://static.pullandbear.net/assets/public/d28c/5a88/3ab34105ad01/6e627e37990e/03241999401-A1M/03241999401-A1M.jpg?ts=1738850714105&w=:width:",
+      "https://static.pullandbear.net/assets/public/7f53/62f9/5c5a42d98835/2bd7999e5e87/03241999401-A3M/03241999401-A3M.jpg?ts=1738850714335&w=:width:",
+      "https://static.pullandbear.net/assets/public/ca1f/a76f/53d5403bb2a1/7504497e79cb/03241999401-A4M/03241999401-A4M.jpg?ts=1738850714323&w=:width:",
+      "https://static.pullandbear.net/assets/public/65d8/dbcb/c4bc409f849d/3f51487171b2/03241999401-M/03241999401-M.jpg?ts=1738850714707&w=:width:",
+      "https://static.pullandbear.net//2024/I/0/2/p/3241/999/401/3241999401_3_1_0.jpg?imwidth=:width:&ts=1718092519149"
+    ]
+  },
+  {
+    "id": "697013457",
+    "name": "Hokey tişörtü STWD 91",
+    "description": "Hokey tişörtü STWD 91",
+    "price": 119000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "251",
+        "name": "Kırık beyaz",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 697003895,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "S",
+            "sku": 697003893,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "M",
+            "sku": 697003894,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "L",
+            "sku": 697003891,
+            "availability": "N/A",
+            "price": "119000"
+          },
+          {
+            "name": "XL",
+            "sku": 697003892,
+            "availability": "N/A",
+            "price": "119000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/7678/2022/973549a3910f/a3f0d4dbcd48/07152511251-A20M/07152511251-A20M.jpg?ts=1752680114341&w=:width:",
+      "https://static.pullandbear.net/assets/public/7cab/51ed/45144d2e9c50/a77ca2be0309/07152511251-A6M/07152511251-A6M.jpg?ts=1752680116903&w=:width:",
+      "https://static.pullandbear.net/assets/public/ed4f/deef/13324277957c/91d43462d36f/07152511251-A8M/07152511251-A8M.jpg?ts=1752680118579&w=:width:",
+      "https://static.pullandbear.net/assets/public/9ede/c01e/4c2a472fbb4d/905ae7733dca/07152511251-Z/07152511251-Z.jpg?ts=1752680121407&w=:width:",
+      "https://static.pullandbear.net/assets/public/8b4d/d553/ce42478f8971/1784ec0eaec7/07152511251-C/07152511251-C.jpg?ts=1752680124774&w=:width:",
+      "https://static.pullandbear.net/assets/public/5ce0/6040/a66940b98170/028cd9689423/0715251125100-A7M/0715251125100-A7M.jpg?ts=1753772517851&w=:width:",
+      "https://static.pullandbear.net/assets/public/f601/5d04/a3224097a9ce/ed2aa42242fd/0715251125100-E/0715251125100-E.jpg?ts=1753772517524&w=:width:",
+      "https://static.pullandbear.net/assets/public/74c2/6743/364c4e08b326/c7ab69fdc7aa/07152511251-M/07152511251-M.jpg?ts=1754295420094&w=:width:",
+      "https://static.pullandbear.net/assets/public/a86e/4834/75c04f88830b/b617a64d917f/COLOR_251/COLOR_251.jpg?ts=1741606738710&w=:width:",
+      "https://static.pullandbear.net/assets/public/f9f2/515c/a39341078f59/95309eac72fd/07152511251-K4/07152511251-K4.jpg?ts=1754295420449&w=:width:"
+    ]
+  },
+  {
+    "id": "692157592",
+    "name": "Arcane baskılı t-shirt",
+    "description": "Arcane baskılı t-shirt",
+    "price": 109000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 692156741,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "S",
+            "sku": 692156739,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "M",
+            "sku": 692156740,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "L",
+            "sku": 692156735,
+            "availability": "N/A",
+            "price": "109000"
+          },
+          {
+            "name": "XL",
+            "sku": 692156737,
+            "availability": "N/A",
+            "price": "109000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/2bf3/4da5/11b740a080ed/c317fc41d740/07151923800-A20M/07151923800-A20M.jpg?ts=1746456277670&w=:width:",
+      "https://static.pullandbear.net/assets/public/ebb6/4b59/522742a4b59d/163a90a9ca79/07151923800-A8M/07151923800-A8M.jpg?ts=1746456282997&w=:width:",
+      "https://static.pullandbear.net/assets/public/de74/9156/95694e2684c7/e43bf4213265/07151923800-A6M/07151923800-A6M.jpg?ts=1746456292546&w=:width:",
+      "https://static.pullandbear.net/assets/public/ea02/1034/664345899ea3/8c01678ca212/07151923800-C/07151923800-C.jpg?ts=1746456303566&w=:width:",
+      "https://static.pullandbear.net/assets/public/f9c1/175b/5b2b4e00a0e6/ca738921fa48/07151923800-Z/07151923800-Z.jpg?ts=1746456313031&w=:width:",
+      "https://static.pullandbear.net/assets/public/47ca/f734/13c84b609eeb/5a0f1291868d/07151923800-A2M/07151923800-A2M.jpg?ts=1747035429992&w=:width:",
+      "https://static.pullandbear.net/assets/public/fc7d/4750/260b45dabfd7/7c321062d708/07151923800-A3M/07151923800-A3M.jpg?ts=1747035429922&w=:width:",
+      "https://static.pullandbear.net/assets/public/98b1/da10/45d046b798d0/2d689d05c117/07151923800-M/07151923800-M.jpg?ts=1747035433937&w=:width:",
+      "https://static.pullandbear.net/assets/public/3ba7/6a5b/08b24267acb4/d97ad9b4dcfc/COLOR_800/COLOR_800.jpg?ts=1741606853179&w=:width:",
+      "https://static.pullandbear.net/assets/public/6df6/899e/6e174fae9ee6/2ba6a1c70786/07151923800-A4M/07151923800-A4M.jpg?ts=1747035433895&w=:width:"
+    ]
+  },
+  {
+    "id": "693840130",
+    "name": "STWD Yıkanmış Görünümlü Polo T-shirt",
+    "description": "STWD Yıkanmış Görünümlü Polo T-shirt",
+    "price": 149000,
+    "currency": "TRY",
+    "colors": [
+      {
+        "id": "800",
+        "name": "Siyah",
+        "sizes": [
+          {
+            "name": "XS",
+            "sku": 693827802,
+            "availability": "N/A",
+            "price": "149000"
+          },
+          {
+            "name": "S",
+            "sku": 693827800,
+            "availability": "N/A",
+            "price": "149000"
+          },
+          {
+            "name": "M",
+            "sku": 693827801,
+            "availability": "N/A",
+            "price": "149000"
+          },
+          {
+            "name": "L",
+            "sku": 693827798,
+            "availability": "N/A",
+            "price": "149000"
+          },
+          {
+            "name": "XL",
+            "sku": 693827799,
+            "availability": "N/A",
+            "price": "149000"
+          }
+        ]
+      }
+    ],
+    "images": [
+      "https://static.pullandbear.net/assets/public/845b/e930/75884c92be18/6db7a8d62f3a/07200508800-A6M/07200508800-A6M.jpg?ts=1749635063027&w=:width:",
+      "https://static.pullandbear.net/assets/public/6a42/b20d/d49f4115a2b6/08a6f7032be3/07200508800-A8M/07200508800-A8M.jpg?ts=1749635063969&w=:width:",
+      "https://static.pullandbear.net/assets/public/6097/d2da/64b24ccf8d04/7b272943b286/07200508800-C/07200508800-C.jpg?ts=1749635099494&w=:width:",
+      "https://static.pullandbear.net/assets/public/2875/4394/e737476280f1/1aff7dc41d72/07200508800-Z/07200508800-Z.jpg?ts=1749635104593&w=:width:",
+      "https://static.pullandbear.net/assets/public/a045/efe3/6e0a4ac1866a/53234ac18684/07200508800-K3/07200508800-K3.jpg?ts=1753255889796&w=:width:",
+      "https://static.pullandbear.net/assets/public/bd9f/fca9/c76549609376/db1a2f9058bb/07200508800-K1/07200508800-K1.jpg?ts=1753255890566&w=:width:",
+      "https://static.pullandbear.net/assets/public/2762/973b/969446939c7c/6ebfd3e92334/07200508800-A3M/07200508800-A3M.jpg?ts=1753255890677&w=:width:",
+      "https://static.pullandbear.net/assets/public/6bc4/93f4/9cfa449bb35c/bfe9b2dfadb0/07200508800-K4/07200508800-K4.jpg?ts=1753255890401&w=:width:",
+      "https://static.pullandbear.net/assets/public/c9b3/a82c/93594bd1a9a4/a49025b33423/07200508800-A4M/07200508800-A4M.jpg?ts=1753255891497&w=:width:",
+      "https://static.pullandbear.net/assets/public/e5a1/cf1e/2e5744ed8abd/7c0d9c6b18bd/07200508800-M/07200508800-M.jpg?ts=1753255891665&w=:width:"
+    ]
+  }
+]

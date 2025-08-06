@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import { databaseService } from './database-service'
 
 // Interfaces
 interface CategoryApiResponse {
@@ -17,7 +18,7 @@ interface FilteredCategory {
   [key: string]: any
 }
 
-interface TargetSubcategoryData {
+export interface TargetSubcategoryData {
   brand: string
   gender: string
   mainCategoryId: number
@@ -36,20 +37,20 @@ interface TargetSubcategoryData {
 }
 
 // Minimal Product Interfaces
-interface MinimalProductSize {
+export interface MinimalProductSize {
   name: string
   sku: number
   availability: string
   price: number
 }
 
-interface MinimalProductColor {
+export interface MinimalProductColor {
   id: string
   name: string
   sizes: MinimalProductSize[]
 }
 
-interface MinimalProduct {
+export interface MinimalProduct {
   id: string
   name: string
   description: string
@@ -526,7 +527,7 @@ async function collectProductIds(categories: TargetSubcategoryData[]) {
 
     let processedSubcats = 0
     for (const subcat of category.subcategories) {
-      if (processedSubcats >= 2) break // Her ana kategoriden sadece 2 alt kategori
+      if (processedSubcats >= 5) break // Her ana kategoriden 5 alt kategori
 
       try {
         // Leaf kategoriler için product ID'leri çek
@@ -544,13 +545,28 @@ async function collectProductIds(categories: TargetSubcategoryData[]) {
             )
             processedSubcats++
           }
+        } else {
+          // Non-leaf kategoriler için de dene (Pull&Bear için)
+          const productIds = await fetchProductIds(
+            category.brand,
+            subcat.categoryId,
+          )
+          if (productIds && productIds.length > 0) {
+            ;(subcat as any).productIds = productIds
+            ;(subcat as any).productCount = productIds.length
+            totalProductIds += productIds.length
+            console.log(
+              `  ✅ ${subcat.categoryName}: ${productIds.length} ürün (non-leaf)`,
+            )
+            processedSubcats++
+          }
         }
 
         // Alt kategoriler varsa onları da işle (sınırlı sayıda)
         if (subcat.subcategories && Array.isArray(subcat.subcategories)) {
           let deepCount = 0
           for (const deepSub of subcat.subcategories) {
-            if (deepCount >= 3) break // Her alt kategoriden 3 tane
+            if (deepCount >= 5) break // Her alt kategoriden 5 tane
 
             if (deepSub.isLeaf) {
               const productIds = await fetchProductIds(
@@ -579,7 +595,7 @@ async function collectProductIds(categories: TargetSubcategoryData[]) {
     }
 
     processedCategories++
-    if (processedCategories >= 4) break // Tüm kategorileri işle ama sınırlı
+    // Tüm kategorileri işle - sınır kaldırıldı
   }
 
   console.log(`\n🎉 Product ID Toplama Tamamlandı!`)
@@ -634,8 +650,52 @@ async function fetchZaraProductIds(categoryId: number): Promise<string[]> {
 // Pull&Bear product ID'leri çekme
 async function fetchPullBearProductIds(categoryId: number): Promise<string[]> {
   try {
-    const url = `https://www.pullandbear.com/itxrest/2/catalog/store/25009621/30359503/category/${categoryId}/product?languageId=-17&appId=1`
-    const response = await fetch(url)
+    const url = `https://www.pullandbear.com/itxrest/3/catalog/store/25009521/20309457/category/${categoryId}/product?languageId=-43&showProducts=false&priceFilter=true&appId=1`
+
+    // First get the main page to establish session
+    await fetch('https://www.pullandbear.com/tr/', {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        Accept:
+          'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'Accept-Language': 'tr-TR,tr;q=0.9,en;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Cache-Control': 'max-age=0',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Sec-Fetch-User': '?1',
+        'Upgrade-Insecure-Requests': '1',
+      },
+    })
+
+    // Wait a bit to mimic human behavior
+    await new Promise((resolve) => setTimeout(resolve, 1000))
+
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        Accept: 'application/json, text/plain, */*',
+        'Accept-Language': 'tr-TR,tr;q=0.9,en;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+        Referer: 'https://www.pullandbear.com/',
+        Origin: 'https://www.pullandbear.com',
+        'Sec-Fetch-Dest': 'empty',
+        'Sec-Fetch-Mode': 'cors',
+        'Sec-Fetch-Site': 'same-origin',
+        'X-Requested-With': 'XMLHttpRequest',
+      },
+    })
+
+    if (!response.ok) {
+      console.error(
+        `Pull&Bear API error: ${response.status} ${response.statusText}`,
+      )
+      return []
+    }
+
     const data: any = await response.json()
 
     const productIds: string[] = []
@@ -693,7 +753,7 @@ async function saveToJson(data: any[], filename: string): Promise<void> {
 }
 
 // Test için 24 ürün seçme ve detaylarını çekme
-async function testMinimalProductDetails() {
+async function testMinimalProductDetails(): Promise<MinimalProduct[]> {
   try {
     // Önce kategori dosyasını oku
     const outputDir = path.join(process.cwd(), 'output')
@@ -765,7 +825,7 @@ async function testMinimalProductDetails() {
       console.log(
         '⚠️ Test için ürün ID bulunamadı. Product ID collection gerekli.',
       )
-      return
+      return []
     }
 
     // Ürün detaylarını çek
@@ -839,9 +899,12 @@ async function testMinimalProductDetails() {
       console.log(`   • Ortalama Renk: ${avgColors.toFixed(1)}/ürün`)
       console.log(`   • Ortalama Görsel: ${avgImages.toFixed(1)}/ürün`)
       console.log(`   • Ortalama Beden: ${avgSizes.toFixed(1)}/ürün`)
+
+      return testResults
     }
   } catch (error) {
     console.error('❌ Test hatası:', error)
+    return []
   }
 }
 
@@ -890,8 +953,44 @@ async function fetchPullBearProductDetail(
   productId: string,
 ): Promise<MinimalProduct | null> {
   try {
-    const url = `https://www.pullandbear.com/itxrest/2/catalog/store/25009621/30359503/category/0/product/${productId}/detail?languageId=-17&appId=1`
-    const response = await fetch(url)
+    // First get the main page to establish session
+    await fetch('https://www.pullandbear.com/tr/', {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        Accept:
+          'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'Accept-Language': 'tr-TR,tr;q=0.9,en;q=0.8',
+      },
+    })
+
+    // Wait a bit to mimic human behavior
+    await new Promise((resolve) => setTimeout(resolve, 1000))
+
+    const url = `https://www.pullandbear.com/itxrest/2/catalog/store/25009521/20309457/category/0/product/${productId}/detail?languageId=-43&appId=1`
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        Accept: 'application/json, text/plain, */*',
+        'Accept-Language': 'tr-TR,tr;q=0.9,en;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+        Referer: 'https://www.pullandbear.com/',
+        Origin: 'https://www.pullandbear.com',
+        'Sec-Fetch-Dest': 'empty',
+        'Sec-Fetch-Mode': 'cors',
+        'Sec-Fetch-Site': 'same-origin',
+        'X-Requested-With': 'XMLHttpRequest',
+      },
+    })
+
+    if (!response.ok) {
+      console.error(
+        `Pull&Bear API error: ${response.status} ${response.statusText}`,
+      )
+      return null
+    }
+
     const data: any = await response.json()
 
     if (!data?.bundleProductSummaries?.[0]) return null
@@ -902,7 +1001,17 @@ async function fetchPullBearProductDetail(
       id: productId,
       name: product.name || 'N/A',
       description: product.detail?.description || product.name || 'N/A',
-      price: product.detail?.colors?.[0]?.price || 0,
+      price: (() => {
+        // For Pull&Bear, get price from first size if main price is 0
+        const mainPrice = product.detail?.colors?.[0]?.price || 0
+        if (mainPrice === 0) {
+          const firstSize = product.detail?.colors?.[0]?.sizes?.[0]
+          return typeof firstSize?.price === 'string'
+            ? parseInt(firstSize.price) || 0
+            : firstSize?.price || 0
+        }
+        return mainPrice
+      })(),
       currency: 'TRY',
       colors: (product.detail?.colors || []).map((color: any) => ({
         id: color.id || 'N/A',
@@ -914,10 +1023,32 @@ async function fetchPullBearProductDetail(
           price: size.price || color.price || 0,
         })),
       })),
-      images:
-        product.detail?.colors?.[0]?.xmedia
-          ?.map((img: any) => img.url)
-          .filter(Boolean) || [],
+      images: (() => {
+        const xmedia = product.detail?.xmedia || []
+        const allImages: string[] = []
+
+        // Extract images from xmedia structure
+        xmedia.forEach((mediaGroup: any) => {
+          if (mediaGroup.xmediaItems && mediaGroup.xmediaItems.length > 0) {
+            mediaGroup.xmediaItems.forEach((item: any) => {
+              if (item.medias) {
+                item.medias.forEach((media: any) => {
+                  if (media.url && media.format === 1) {
+                    // format 1 = images
+                    allImages.push(
+                      `https://static.pullandbear.net/${
+                        media.extraInfo?.url || media.url
+                      }`,
+                    )
+                  }
+                })
+              }
+            })
+          }
+        })
+
+        return allImages.slice(0, 10) // Limit to first 10 images
+      })(),
     }
   } catch (error) {
     console.error(`Pull&Bear ${productId} fetch error:`, error)
@@ -1034,7 +1165,50 @@ async function main() {
 
     if (answer === 'y' || answer === 'yes' || answer === 'evet') {
       console.log('\n🧪 24 Ürün Detay Test Başlatılıyor...')
-      await testMinimalProductDetails()
+      const products = await testMinimalProductDetails()
+
+      // Database kaydetme seçeneği
+      const readline = require('readline')
+      const rl2 = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+      })
+
+      console.log(
+        '\n💾 Bu verileri veritabanına kaydetmek ister misiniz? (y/n):',
+      )
+      const dbAnswer = await new Promise<string>((resolve) => {
+        rl2.question('', (input: string) => {
+          rl2.close()
+          resolve(input.toLowerCase().trim())
+        })
+      })
+
+      if (dbAnswer === 'y' || dbAnswer === 'yes' || dbAnswer === 'evet') {
+        console.log('\n🗄️  Veritabanına kaydetme işlemi başlatılıyor...')
+
+        // Kategori verilerini kaydet
+        console.log('\n📂 Kategori verilerini kaydediyor...')
+        await databaseService.saveCategoryData(categoriesWithProductIds)
+
+        // Ürün verilerini kaydet
+        if (products && products.length > 0) {
+          console.log('\n🛍️  Ürün verilerini kaydediyor...')
+          await databaseService.saveProducts(products)
+        }
+
+        // İstatistikleri göster
+        const stats = await databaseService.getStats()
+        console.log('\n📊 Veritabanı İstatistikleri:')
+        console.log(`   Categories: ${stats.categories}`)
+        console.log(`   Subcategories: ${stats.subcategories}`)
+        console.log(`   Products: ${stats.products}`)
+        console.log(`   Product IDs: ${stats.productIds}`)
+
+        console.log('\n✅ Tüm veriler başarıyla veritabanına kaydedildi!')
+      } else {
+        console.log('\n⏭️ Veritabanına kaydetme atlandı')
+      }
     } else {
       console.log('\n⏭️ 24 ürün test atlandı')
     }

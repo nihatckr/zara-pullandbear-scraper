@@ -1,19 +1,23 @@
 {
     "name": "zara-pullandbear-scraper",
-    "version": "4.0.0",
-    "description": "Production-ready Zara & Pull&Bear product scraper with 16,071+ products support",
+    "version": "4.1.0",
+    "description": "Production-ready Zara & Pull&Bear scraper with Prisma database integration - 29,755+ products support",
     "main": "src/main.ts",
     "directories": {
         "doc": "docs"
     },
     "scripts": {
         "scrape": "npx tsx src/main.ts",
+        "db:push": "npx prisma db push",
+        "db:generate": "npx prisma generate",
+        "db:studio": "npx prisma studio",
+        "db:reset": "npx prisma db push --force-reset",
         "build": "tsc",
         "start": "node dist/main.js",
         "dev": "npx tsx src/main.ts",
         "type-check": "tsc --noEmit",
         "clean": "rm -rf output/* dist/*",
-        "help": "echo 'Available scripts: scrape, build, start, dev, type-check, clean'"
+        "help": "echo 'Available scripts: scrape, build, start, dev, type-check, clean, db:push, db:generate, db:studio, db:reset'"
     },
     "keywords": [
         "scraper",
@@ -30,6 +34,7 @@
     },
     "dependencies": {
         "@prisma/client": "^6.13.0",
+        "mysql2": "^3.14.3",
         "prisma": "^6.13.0"
     }
 }
