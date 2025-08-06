@@ -2,22 +2,18 @@
     "name": "zara-pullandbear-scraper",
     "version": "4.0.0",
     "description": "Production-ready Zara & Pull&Bear product scraper with 16,071+ products support",
-    "main": "scripts/production-scraper.ts",
+    "main": "src/main.ts",
     "directories": {
         "doc": "docs"
     },
     "scripts": {
-        "scrape:categories": "npx ts-node scripts/category-scraper-v2.ts",
-        "scrape:test": "npx ts-node scripts/test-minimal-api.ts",
-        "scrape:production": "npx ts-node scripts/production-scraper.ts",
-        "scrape:all": "npm run scrape:categories && npm run scrape:test && npm run scrape:production",
-        "build": "tsc --noEmit",
+        "scrape": "npx tsx src/main.ts",
+        "build": "tsc",
+        "start": "node dist/main.js",
+        "dev": "npx tsx src/main.ts",
         "type-check": "tsc --noEmit",
-        "dev": "npm run scrape:test",
-        "start": "npm run scrape:production",
-        "clean": "rm -rf output/*.json",
-        "docs": "echo 'Documentation available in docs/ folder'",
-        "help": "echo 'Available scripts: scrape:categories, scrape:test, scrape:production, scrape:all'"
+        "clean": "rm -rf output/* dist/*",
+        "help": "echo 'Available scripts: scrape, build, start, dev, type-check, clean'"
     },
     "keywords": [
         "scraper",

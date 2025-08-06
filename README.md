@@ -33,15 +33,11 @@ zara-pullandbear-scraper/
 ├── 📄 README.md                           # Ana dokümantasyon
 ├── 📄 package.json                        # Node.js bağımlılıkları
 ├── 📄 tsconfig.json                       # TypeScript konfigürasyonu
-├── 📁 scripts/                            # Tüm scraper scriptleri
-│   ├── 📄 category-scraper-v2.ts          # v2.0 Kategori + Product ID scraper
-│   ├── 📄 test-minimal-api.ts             # v4.0 Minimal API test scripti
-│   └── 📄 production-scraper.ts           # v4.0 Production scraper
+├── 📁 src/                                # Ana kaynak kod
+│   └── 📄 main.ts                         # Tüm scraper fonksiyonları
 ├── 📁 output/                             # Çıktı dosyaları
 │   ├── 📄 hierarchical-subcategories-*.json     # 16,071+ ürün ID'si
 │   └── 📄 product-details-minimal-v4-*.json     # Test edilmiş ürün detayları
-├── 📁 prisma/                             # Database schema
-│   └── 📄 schema.prisma                   # Prisma ORM schema
 └── 📄 .env                                # Environment variables
 ```
 
@@ -58,32 +54,17 @@ cd zara-pullandbear-scraper
 npm install
 ```
 
-### 2. Kategori ve Product ID'leri Çek (v2.0)
+### 2. Scraping İşlemini Başlat
 
 ```bash
-# Tüm kategorileri ve ürün ID'lerini çek
-npm run scrape:categories
+# Tüm scraping işlemini başlat
+npm run scrape
 ```
 
-**Çıktı:** `output/hierarchical-subcategories-*.json` (16,071+ ürün)
-
-### 3. Ürün Detaylarını Test Et (v4.0)
-
-```bash
-# Minimal API'yi test et
-npm run scrape:test
-```
-
-**Çıktı:** `output/product-details-minimal-v4-*.json` (24 test ürün)
-
-### 4. Production Scraping (v4.0)
-
-```bash
-# Tüm ürünleri çek (saatler sürebilir)
-npm run scrape:production
-```
-
-**Not:** Production scraper'ı çalıştırmadan önce dosyayı açıp `startProductionScraping()` çağrısının yorumunu kaldırın.
+Bu komut sırasıyla şunları yapar:
+1. **Kategori + Product ID çekme** (v2.0)
+2. **Minimal API test** (v4.0) 
+3. **Production scraping** seçeneği (manuel onay gerekir)
 
 ## 📊 Veri Yapıları
 
@@ -176,16 +157,16 @@ const PRODUCTION_CONFIG = {
 
 ### **Script Komutları**
 ```bash
+# Ana scraping komutu (kategori + test + production seçeneği)
+npm run scrape
+
 # TypeScript derleme kontrolü
 npm run type-check
-
-# Tüm scriptleri derle
-npm run build
 
 # Development modda çalıştır
 npm run dev
 
-# Production scraping
+# Production modda çalıştır
 npm run start
 
 # Çıktı dosyalarını temizle
@@ -199,8 +180,8 @@ npm run help
 
 ### **v4.0 - Minimal Product Details (Mevcut)**
 - ✅ Unified 6-field product structure
-- ✅ Production-ready batch processing
-- ✅ Auto-save ve resume capability
+- ✅ Single-file architecture (src/main.ts)
+- ✅ Interactive pipeline: Category → Test → Production
 - ✅ %100 test success rate
 
 ### **v3.0 - Enhanced Product Details**
@@ -210,7 +191,7 @@ npm run help
 
 ### **v2.0 - Category + Product IDs**
 - ✅ Hierarchical category mapping
-- ✅ Product ID extraction
+- ✅ Product ID extraction (16,071+ products)
 - ✅ Brand cross-referencing
 
 ### **v1.0 - Basic Category Scraping**
@@ -271,7 +252,7 @@ Bu proje açık kaynak olarak geliştirilmiştir ve topluluk katkılarına açı
 
 ---
 
-**🚀 v4.0 ile production-ready, minimal ve hızlı scraping deneyimi!**
+**🚀 v4.0 ile tek dosya, production-ready, minimal ve hızlı scraping deneyimi!**
 
 ## � Kurulum ve Çalıştırma
 
